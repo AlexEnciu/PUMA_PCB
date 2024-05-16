@@ -1,0 +1,238 @@
+(footprint "R302.302.000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MML STRAIGHT RECEPTACLE FOR PCB H2.0-H2.5")
+	(property "Reference" "REF**"
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c015e5d5-2cd8-4781-92fc-2b0476bce093")
+		(effects
+			(font
+				(size 0.65024 0.65024)
+				(thickness 0.16256)
+			)
+		)
+	)
+	(property "Value" "R302.302.000"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f27d0993-f864-40bd-9558-94671caa83eb")
+		(effects
+			(font
+				(size 0.65024 0.65024)
+				(thickness 0.16256)
+			)
+		)
+	)
+	(property "Footprint" "R302.302.000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e2684a8-df8a-40e9-a184-8bb4bb591381")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff8e8395-f771-4854-92bf-1134d724bf9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98a8b3ef-3a01-4823-8dcf-1b06a5575d08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -1.4 -1.7)
+		(end -1.4 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b3dea5f-4374-4027-929a-cb77e753484a")
+	)
+	(fp_line
+		(start -1.3 1.4)
+		(end -1 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5aa5c8a0-ba90-4a3b-a84c-0b2e0ccb06f8")
+	)
+	(fp_line
+		(start -1 1.7)
+		(end -0.8 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "337d67bf-b4a4-4134-98cf-152c4411fd7c")
+	)
+	(fp_line
+		(start -0.8 -1.7)
+		(end -1.4 -1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96774816-a22f-4fa9-8658-e7693a51098d")
+	)
+	(fp_line
+		(start 0.8 -1.8)
+		(end 1.3 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15ca4ec9-ff62-4475-918c-97330e54e459")
+	)
+	(fp_line
+		(start 1.2 1.4)
+		(end 1.2 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e351a0d9-7d81-4536-8da4-5f7b76d7b9b2")
+	)
+	(fp_line
+		(start 1.2 1.7)
+		(end 0.8 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21f8e9fa-ea6a-47f7-b104-96aea449f9de")
+	)
+	(fp_line
+		(start 1.3 -1.8)
+		(end 1.3 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbb46d88-a000-4100-b42a-b709ce8c695a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.4 0.4) (xy 0.4 0.4) (xy 0.4 -0.4) (xy -0.4 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e46800c8-5118-4bd8-a812-bccc032d2db4")
+	)
+	(fp_poly
+		(pts
+			(xy -0.3 0.8) (xy 0.3 0.8) (xy 0.3 0.4) (xy -0.3 0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "efacfb28-b841-4340-84f0-a9f25928d209")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.47 0)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "39e21f89-ca68-4d7d-ac0e-4c45ffca5c57")
+	)
+	(pad "1" smd rect
+		(at 0 1.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "94e152b0-4c45-40ab-b72d-fb806c01a5f8")
+	)
+	(pad "GND@1" smd rect
+		(at 1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "5026e2e7-7048-464e-af16-07b005ea5014")
+	)
+	(pad "GND@2" smd rect
+		(at -1.475 0)
+		(size 1.05 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "7c4f2135-7112-4284-96e6-1aef49a88c80")
+	)
+	(pad "GND@3" smd rect
+		(at 0 -1.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "ab12b921-f31b-4c11-8f30-91c8c0039de2")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "1336f356-a4af-43da-ad71-011e0d388736")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.6 0.8) (xy 0.6 0.8) (xy 0.6 -0.5) (xy -0.6 -0.5)
+			)
+		)
+	)
+)
