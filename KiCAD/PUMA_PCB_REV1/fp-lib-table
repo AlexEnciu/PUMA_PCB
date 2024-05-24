@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PUMA_FP")(type "KiCad")(uri "${PUMA_PCB}/FootPrint_Symbols")(options "")(descr ""))
+)

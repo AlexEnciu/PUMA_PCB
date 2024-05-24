@@ -1674,6 +1674,32 @@
 		(color 0 0 0 0)
 		(uuid "659aaab5-3f66-4736-9302-cdb0a4fe933e")
 	)
+	(junction
+		(at 132.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79ff8795-0610-4369-a14f-034c62e49f34")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2399a19b-b130-44c4-9caa-424d49cef434")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f792b27-275c-4d26-8140-57ff584fe89a")
+	)
 	(wire
 		(pts
 			(xy 57.15 107.95) (xy 59.69 107.95)
@@ -1683,6 +1709,16 @@
 			(type default)
 		)
 		(uuid "439577f9-03a7-4504-b72c-a4784d128eb9")
+	)
+	(wire
+		(pts
+			(xy 132.08 48.26) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76686fb1-e239-4e72-9324-ec2b872815f1")
 	)
 	(wire
 		(pts
@@ -1703,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "8bf218d8-5a1f-4778-9f8a-12842b36cc47")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40fb5c4-c939-4a42-925a-e4c9e41008ab")
 	)
 	(wire
 		(pts
@@ -1800,6 +1846,28 @@
 			)
 		)
 	)
+	(global_label "+HV"
+		(shape input)
+		(at 132.08 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "726f25f8-556f-466e-a9c9-524671249fcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 33.6633 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PW_1"
 		(shape input)
 		(at 66.04 71.12 270)
@@ -1813,6 +1881,28 @@
 		(uuid "8776c821-a226-4971-a5d5-d9381edcdd86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.04 79.0037 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PW_2"
+		(shape input)
+		(at 132.08 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b51c39e-426f-4ac5-8a04-1d79a9957f2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 80.2737 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PUMA_PCB:SAMTEC-TMM-116-01-X-D-SM"
+		(property "Footprint" "SiPM_Onsemi:SAMTEC-TMM-116-01-X-D-SM"
 			(at 64.77 107.95 0)
 			(effects
 				(font
@@ -2062,6 +2152,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 132.08 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42711a34-6b95-440c-b144-3a6fd27dd138")
+		(property "Reference" "R2"
+			(at 134.62 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 134.62 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 130.302 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b835c3e3-c479-47ab-ab15-6d8a9a3b7f49")
+		)
+		(pin "1"
+			(uuid "5d2ca328-5d62-4304-8655-966b011183d3")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 54.61 0)
 		(unit 1)
@@ -2125,6 +2285,141 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da6857c4-3c76-4232-9501-589e1725d8fb")
+		(property "Reference" "C2"
+			(at 110.236 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n/50V"
+			(at 105.664 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 119.0752 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87f7d13b-6e89-49e3-9b8f-4e497902b3fb")
+		)
+		(pin "2"
+			(uuid "4a5470e1-c52c-4079-8100-00bb333c3a18")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dadf6e3a-5e69-4d98-8a48-7988d1d506e3")
+		(property "Reference" "#PWR02"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f3d107-21ad-4f40-be0e-65f37335f635")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2268,6 +2563,213 @@
 	)
 	(symbol
 		(lib_id "SiPM_Onsemi:MICROFC-30035-SMT-TR1")
+		(at 134.62 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb3626b8-ebc1-4d70-9f7a-c03d87eda1ce")
+		(property "Reference" "U2"
+			(at 140.97 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MICROFC-30035-SMT-TR1"
+			(at 140.97 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 ON Semiconductor"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Issue O"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MICROFC-30035-SMT-TR1"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPhotodiode 420nm 600ps - 4-SMD, No Lead\n"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Semiconductor"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d4e9109-b7cb-4c36-ae03-e6bfc34f9f77")
+		)
+		(pin "1"
+			(uuid "056391b8-de26-4d0e-9d84-ea77f87d35a0")
+		)
+		(pin "3"
+			(uuid "be886b5c-cf4c-4155-a395-678c5524d8e0")
+		)
+		(pin "4"
+			(uuid "a0a29558-b1a1-418b-9238-b2a73f34f6d2")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Onsemi:MICROFC-30035-SMT-TR1")
 		(at 68.58 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2294,7 +2796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PUMA_PCB:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 68.58 60.96 0)
 			(effects
 				(font
