@@ -1,4 +1,4 @@
-23356305060519070
+23366600336920317
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67444,6 +67444,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PUMA_3D
+SAMTEC-TMM-116-01-X-D-SM
+translated Allegro footprint
+
+0
+32
+32
+PUMA_3D
+XDCR_MICROFC-30035-SMT-TR1
+
+
+0
+4
+4
+PUMA_FP
+SAMTEC-TMM-116-01-X-D-SM
+translated Allegro footprint
+
+0
+32
+32
+PUMA_FP
+XDCR_MICROFC-30035-SMT-TR1
+
+
+0
+4
+4
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
@@ -88171,6 +88199,20 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+SiPM_Onsemi
+SAMTEC-TMM-116-01-X-D-SM
+translated Allegro footprint
+
+0
+32
+32
+SiPM_Onsemi
+XDCR_MICROFC-30035-SMT-TR1
+
+
+0
+4
+4
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
