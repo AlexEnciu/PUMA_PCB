@@ -784,13 +784,24 @@
 			)
 			(uuid "59c0737e-826b-4883-a88e-ece27a1951c6")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
 		(uuid "0d240c31-b7ef-42c6-b4da-6296c5ba859b")
 		(at 72.064805 104.563514 151.85)
 		(property "Reference" "U6"
-			(at 1.527279 3.197447 61.85)
+			(at 2.824932 0.341578 61.85)
 			(layer "F.SilkS")
 			(uuid "e89763dd-a503-4819-b89e-38bac104a9f9")
 			(effects
@@ -1343,6 +1354,17 @@
 				)
 			)
 			(uuid "5f4c461a-dcfe-46e6-b450-88a48c2c5c8f")
+		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
@@ -1902,6 +1924,17 @@
 			)
 			(uuid "0a948389-aff8-4b9e-93e8-782f2bd0adc4")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
@@ -2460,6 +2493,17 @@
 			)
 			(uuid "1c07b892-9ac4-447f-a722-b34e1f00e0f6")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
@@ -3017,6 +3061,17 @@
 				)
 			)
 			(uuid "b8db69c0-ac40-4bc4-9c54-6dd8db822e50")
+		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
@@ -4157,6 +4212,17 @@
 			)
 			(uuid "00e03691-dd5d-4930-9a7a-32f737261bd7")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
@@ -4714,6 +4780,17 @@
 				)
 			)
 			(uuid "5efd51b6-644a-47fb-80a5-1e7468e9af72")
+		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
@@ -5273,13 +5350,24 @@
 			)
 			(uuid "a85bf265-20f3-4ea0-a48f-0b13bb71530e")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
 		(uuid "7f515df7-2e3a-4d1d-934a-3969c0624e18")
 		(at 60.267027 133.256102 164.1)
 		(property "Reference" "U3"
-			(at 1.599776 -3.35669 74.1)
+			(at 2.840436 0.114347 74.1)
 			(layer "F.SilkS")
 			(uuid "bb82374a-c0ef-4bd6-ac03-700d296b768a")
 			(effects
@@ -5832,13 +5920,24 @@
 			)
 			(uuid "6778a47e-a12d-4690-98e8-15777f4f6de9")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
 		(uuid "90513236-04c8-4bf2-b018-5db6fe85fd9b")
 		(at 55.959496 154.349003 174.4)
 		(property "Reference" "U2"
-			(at 0.224365 3.483261 84.4)
+			(at 2.839264 0.008184 84.4)
 			(layer "F.SilkS")
 			(uuid "132321f3-f3d9-4001-98b2-60dcb737a3d4")
 			(effects
@@ -6391,13 +6490,24 @@
 			)
 			(uuid "27729b78-c1b2-4296-bb19-27e6c4fbc53c")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
 		(uuid "bab5a1d0-3228-4623-97ef-5ab042367888")
 		(at 69.846413 108.709675 151.85)
 		(property "Reference" "U5"
-			(at 1.427914 -3.203369 61.85)
+			(at 2.859528 0.118589 61.85)
 			(layer "F.SilkS")
 			(uuid "79550e51-c106-46d6-bfac-fc37a27f83d7")
 			(effects
@@ -6954,6 +7064,17 @@
 				)
 			)
 			(uuid "0e1e2ba2-6acb-43fb-8592-c71860cd7e0a")
+		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
@@ -7513,6 +7634,17 @@
 			)
 			(uuid "963efa35-55b4-404f-9597-00afcf93a077")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
@@ -8071,13 +8203,24 @@
 			)
 			(uuid "3b5a0ed3-9e9a-4a84-bd56-6fd2974663c0")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
 		(uuid "feab8c6e-5395-458a-a8ad-2fac904b522f")
 		(at 61.550762 128.697028 164.1)
 		(property "Reference" "U4"
-			(at 1.370574 3.078868 74.1)
+			(at 2.787638 0.112506 74.1)
 			(layer "F.SilkS")
 			(uuid "a47e1bb9-f0fd-4a1d-bbbe-791b7a43a98c")
 			(effects
@@ -8630,13 +8773,24 @@
 			)
 			(uuid "e73bdfa2-be2b-443d-afa4-e3801bee04f3")
 		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 		(layer "F.Cu")
 		(uuid "ff27ba18-e6b9-4acb-83ad-f1e061852ebe")
 		(at 55.502195 159.003395 174.4)
 		(property "Reference" "U1"
-			(at 0.594073 -3.431425 -95.6)
+			(at 2.880348 -0.176003 -95.6)
 			(layer "F.SilkS")
 			(uuid "a31b60ed-2c0d-4609-a679-b2def9cf68a8")
 			(effects
@@ -9188,6 +9342,17 @@
 				)
 			)
 			(uuid "366582f6-3bcc-4518-b557-dea77b996bdd")
+		)
+		(model "${PUMA_3D}/MICROFC-30035-SMT-TR1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -21881,6 +22046,17 @@
 			(pintype "passive")
 			(uuid "b86b752e-28ab-4225-8b11-fa8311b55e32")
 		)
+		(model "${PUMA_3D}/SAMTEC-TMM-116-01-X-D-SM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "B.Cu")
@@ -22374,7 +22550,7 @@
 		(uuid "826ab6c4-bdbf-4696-b3ec-b9ac155eb728")
 	)
 	(via blind
-		(at 53.28251 154.302657)
+		(at 53.15454 155.398594)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
