@@ -244,6 +244,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -73.15)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5d029d14-aaec-43ce-8ab7-69638266ecf6")
 			(effects
 				(font
@@ -1385,6 +1386,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -39.4)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "02c4a83e-1095-46e5-bd32-4e9700c10816")
 			(effects
 				(font
@@ -1954,6 +1956,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -61.9)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "abc60070-ad8e-4bb7-8657-e850fdf15456")
 			(effects
 				(font
@@ -2523,6 +2526,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -84.4)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f4dc1fc1-fc11-42ca-88ae-32f05edb9cf1")
 			(effects
 				(font
@@ -3092,6 +3096,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -73.15)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cd37fb54-f6f0-4d91-a0d8-f9036d16f6fa")
 			(effects
 				(font
@@ -3673,6 +3678,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -39.4)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "299d432f-0e2a-4608-8a2c-c55156cc9055")
 			(effects
 				(font
@@ -4242,6 +4248,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -84.4)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "79c5194a-514b-4104-a735-81ee910ba147")
 			(effects
 				(font
@@ -4811,6 +4818,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -61.9)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "35725af8-f0e1-4ea2-87e9-00b353df4f1e")
 			(effects
 				(font
@@ -7095,6 +7103,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -50.65)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3ba0f1de-e1af-4f2e-bbda-8947be95d553")
 			(effects
 				(font
@@ -7664,6 +7673,7 @@
 		(property "Value" "MICROFC-30035-SMT-TR1"
 			(at 10.708 2.892 -50.65)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "037f71b5-e7d6-4a44-8dc0-6c06274729b8")
 			(effects
 				(font
