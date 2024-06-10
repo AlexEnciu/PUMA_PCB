@@ -262,6 +262,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Samtec_Header:SAMTEC-TMM-116-01-X-D-SM"
 			(pin_names
 				(offset 1.016)
@@ -1693,6 +1775,12 @@
 		(uuid "207ba43d-a2b1-41dc-8b53-b5c318845ade")
 	)
 	(junction
+		(at 163.83 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29dc479c-a2a5-47d3-8b8c-064142200bf4")
+	)
+	(junction
 		(at 132.08 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1709,6 +1797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e0c98d-e0dc-4ce4-86f6-dc717911c2cd")
+	)
+	(junction
+		(at 156.21 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6230517b-209a-46ce-b440-f3a07cba07b9")
 	)
 	(junction
 		(at 99.06 86.36)
@@ -1735,6 +1829,18 @@
 		(uuid "806d68ff-09e4-464d-9aa8-f2393745f27c")
 	)
 	(junction
+		(at 133.35 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e1f9da2-a3a7-4cc7-94e5-20bf0cf9a0fb")
+	)
+	(junction
+		(at 124.46 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "913a653a-b3e2-44d6-9b29-c24b6576c9eb")
+	)
+	(junction
 		(at 30.48 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1747,6 +1853,18 @@
 		(uuid "9ea85c5a-42e3-4b72-b7be-c70c98932393")
 	)
 	(junction
+		(at 148.59 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6fa23e5-c48a-4d16-97bf-ff220b1134ca")
+	)
+	(junction
+		(at 109.22 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca94bb9d-b469-49e5-81ba-35ca7234cf1e")
+	)
+	(junction
 		(at 267.97 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1757,6 +1875,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8dd0f8f-a6f4-4f40-9753-7c36af35b3cf")
+	)
+	(junction
+		(at 116.84 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9648e10-6739-40da-b3bc-e80f4dd71270")
+	)
+	(junction
+		(at 140.97 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2efb61-b7bf-41cd-b8bc-ffd65aecbe40")
 	)
 	(junction
 		(at 234.95 34.29)
@@ -1796,6 +1926,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 146.05) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d417637-3ac2-492f-af2d-75b97133eea1")
+	)
+	(wire
+		(pts
 			(xy 200.66 34.29) (xy 200.66 36.83)
 		)
 		(stroke
@@ -1813,6 +1953,16 @@
 			(type default)
 		)
 		(uuid "13a6fac2-1563-4b4d-9a67-89ed10ece27a")
+	)
+	(wire
+		(pts
+			(xy 116.84 146.05) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14190e60-2da8-423c-abc4-c6c1e7690838")
 	)
 	(wire
 		(pts
@@ -1856,6 +2006,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 139.7) (xy 140.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1dcdf7-fb93-4fe5-ae26-d96d105b47c6")
+	)
+	(wire
+		(pts
+			(xy 116.84 139.7) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb8fe06-7694-42fe-b68b-691454eeb783")
+	)
+	(wire
+		(pts
 			(xy 220.98 34.29) (xy 234.95 34.29)
 		)
 		(stroke
@@ -1886,6 +2056,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 139.7) (xy 133.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230a4b9d-ff5f-461d-8d09-779f0b614755")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 64.77 34.29)
 		)
 		(stroke
@@ -1906,6 +2086,36 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 140.97) (xy 102.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe92817-96fc-4076-b56b-0014a72dc020")
+	)
+	(wire
+		(pts
+			(xy 109.22 146.05) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3565a23b-d3a1-4c5c-b09f-8390dee5d891")
+	)
+	(wire
+		(pts
+			(xy 163.83 146.05) (xy 167.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36472869-31ee-4ed8-ad4e-95986d9ed911")
+	)
+	(wire
+		(pts
 			(xy 234.95 30.48) (xy 234.95 34.29)
 		)
 		(stroke
@@ -1923,6 +2133,16 @@
 			(type default)
 		)
 		(uuid "3712b211-e357-4678-9c23-5d892910027a")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 133.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38aa70bf-a813-4b19-8590-5c267451a022")
 	)
 	(wire
 		(pts
@@ -2066,6 +2286,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 146.05) (xy 148.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c65cbbf-318e-48f8-8c7f-9a9cf5e5e0d0")
+	)
+	(wire
+		(pts
 			(xy 31.75 148.59) (xy 35.56 148.59)
 		)
 		(stroke
@@ -2106,6 +2336,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 140.97) (xy 148.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a46d717-6d32-4567-9a1f-e3a685b57ff9")
+	)
+	(wire
+		(pts
 			(xy 66.04 181.61) (xy 71.12 181.61)
 		)
 		(stroke
@@ -2143,6 +2383,16 @@
 			(type default)
 		)
 		(uuid "85b8b057-7adc-46cc-a5ff-ef2f98dbddfc")
+	)
+	(wire
+		(pts
+			(xy 156.21 146.05) (xy 163.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87170f60-0e3e-4910-b57d-df876d3cfc7d")
 	)
 	(wire
 		(pts
@@ -2236,6 +2486,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 140.97) (xy 156.21 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3dff50f-125f-4946-8e09-9eed3a97f397")
+	)
+	(wire
+		(pts
 			(xy 255.27 86.36) (xy 267.97 86.36)
 		)
 		(stroke
@@ -2256,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 139.7) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8d282b-1118-41ad-88e5-6d72a6fd3265")
+	)
+	(wire
+		(pts
 			(xy 99.06 30.48) (xy 99.06 34.29)
 		)
 		(stroke
@@ -2263,6 +2533,16 @@
 			(type default)
 		)
 		(uuid "ad9344ce-7346-4499-8ceb-833522b3e650")
+	)
+	(wire
+		(pts
+			(xy 124.46 139.7) (xy 124.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1697e41-b50e-4c65-95aa-d007d63dde50")
 	)
 	(wire
 		(pts
@@ -2346,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 146.05) (xy 140.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf2aca2-ac18-4021-a054-9c06c9573f7f")
+	)
+	(wire
+		(pts
 			(xy 31.75 173.99) (xy 35.56 173.99)
 		)
 		(stroke
@@ -2373,6 +2663,16 @@
 			(type default)
 		)
 		(uuid "c5121758-a68d-4b93-b70d-052139c0c1a3")
+	)
+	(wire
+		(pts
+			(xy 148.59 146.05) (xy 156.21 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96e9284-df7b-4f01-8846-45d8ec52be2c")
 	)
 	(wire
 		(pts
@@ -2483,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "e2a579c1-6ae9-4659-b775-311b0c185d12")
+	)
+	(wire
+		(pts
+			(xy 163.83 140.97) (xy 163.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5765f9f-9efc-433f-9387-83b3b725c279")
 	)
 	(wire
 		(pts
@@ -3621,6 +3931,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e8c1fa-fb60-47da-a2de-e7b0898d4091")
+		(property "Reference" "#PWR024"
+			(at 29.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c80b504c-fcd3-42c8-ae69-5fd45ec14a0a")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiPM_Onsemi:MICROFC-30035-SMT-TR1")
 		(at 270.51 44.45 90)
 		(unit 1)
@@ -4172,6 +4549,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 133.35 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef380bf-ae62-46fd-aac5-a7c4c735968b")
+		(property "Reference" "H5"
+			(at 135.89 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 135.89 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 140.97 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1190a631-dfe0-4917-bb8b-1dbae8e034b5")
+		(property "Reference" "H6"
+			(at 143.51 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 143.51 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 267.97 26.67 0)
 		(unit 1)
@@ -4441,6 +4946,204 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4b562d-7e19-4a40-a1a8-1ee270c93b68")
+		(property "Reference" "#PWR020"
+			(at 29.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d01201-0bab-4a43-aca9-3b7ef451bc2b")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0f8909-da07-4aa7-9dca-f57ddc53f7f4")
+		(property "Reference" "#PWR017"
+			(at 29.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b37ed38-4023-47d9-b263-6e2bc4cc9195")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 116.84 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3374ee8b-639b-447c-958d-dacb43686bae")
+		(property "Reference" "H3"
+			(at 119.38 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 119.38 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4960,6 +5663,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c123e7-82a6-4a23-8c2d-17a294992983")
+		(property "Reference" "#PWR018"
+			(at 29.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85eba149-d47b-4976-b7f6-ad48d28f3895")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 78.74 0)
 		(unit 1)
@@ -5096,6 +5866,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 163.83 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6d9dc4-86b0-45ed-a8d2-c64a2f43bebb")
+		(property "Reference" "H9"
+			(at 166.37 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 166.37 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 93.98 0)
 		(unit 1)
@@ -5226,6 +6060,207 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4484ceee-250a-470a-bc1f-92f040ff8a8a")
+		(property "Reference" "#PWR033"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "332ca155-c9ec-417f-9b5f-dfef7a0f522b")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "451b04f8-d4af-4535-979a-dd9a9ff09881")
+		(property "Reference" "#PWR022"
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "775e40c0-3915-46db-b2cf-4d8fcf4c5e32")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48806c80-08c5-4df2-9199-5ca5b4a14971")
+		(property "Reference" "#PWR030"
+			(at 72.39 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4887141a-1a0c-44e3-9cda-fed2fe2aae91")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5783,6 +6818,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a53c8d-b451-433e-8bf3-ed001f459047")
+		(property "Reference" "#PWR031"
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bc87a28-02b2-4f02-8572-2b652e3d10a6")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiPM_Onsemi:MICROFC-30035-SMT-TR1")
 		(at 101.6 96.52 90)
 		(unit 1)
@@ -6124,6 +7226,140 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1a234e-8c79-4af0-b386-fdada857f801")
+		(property "Reference" "#PWR028"
+			(at 72.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74429aae-1a5a-4ea7-8bd7-736b13df9ef2")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd3863a-1768-483c-bba6-2177fb205990")
+		(property "Reference" "#PWR019"
+			(at 29.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d87d065-582c-4f34-ac7d-934faa4b52db")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6605,6 +7841,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a1d03b2-57a1-4c63-a167-85f43ef8440b")
+		(property "Reference" "#PWR026"
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78f52b09-75ce-4836-91ce-792694ecfaad")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SiPM_Onsemi:MICROFC-30035-SMT-TR1")
 		(at 101.6 44.45 90)
 		(unit 1)
@@ -6882,6 +8185,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ec31e70-9369-451b-bef1-25af03919a57")
+		(property "Reference" "#PWR029"
+			(at 72.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00795765-967e-4060-bea5-817af2fa8547")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 90.17 0)
 		(unit 1)
@@ -6951,6 +8321,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d43593a-ad5c-4a18-81a0-708ce3850683")
+		(property "Reference" "H8"
+			(at 158.75 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.75 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 156.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 255.27 38.1 0)
 		(unit 1)
@@ -7014,6 +8448,204 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "943d7f57-421c-48e1-8025-5068eb3cbe21")
+		(property "Reference" "#PWR025"
+			(at 72.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b5d8700-7505-4087-8c82-6e2e2099ad87")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 148.59 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c1e813c-67bf-4a13-8a02-54099463ebaa")
+		(property "Reference" "H7"
+			(at 151.13 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 151.13 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9daa2012-85a4-473e-a59f-9723c10bfe9c")
+		(property "Reference" "#PWR023"
+			(at 29.21 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19329d6c-00d0-4cdd-8ff2-9dfd1dee04d2")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7777,6 +9409,70 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b12340b1-a751-45d0-b867-eacaba682bec")
+		(property "Reference" "H2"
+			(at 111.76 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9363,6 +11059,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df328df5-77f3-47d6-a4e9-112cf7e5f802")
+		(property "Reference" "#PWR021"
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76001963-6b89-4b61-a9c1-2b903efd3e53")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 16.51 90.17 0)
 		(unit 1)
@@ -9426,6 +11189,201 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 139.7 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0244d68-1bf6-4adb-a231-1ff1f7187a96")
+		(property "Reference" "H1"
+			(at 105.41 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 105.41 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12c8e44-f05a-4a0a-8242-d7409bbc579f")
+		(property "Reference" "#PWR032"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e9ff1c4-80be-4a7e-b644-3f414e7589eb")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 124.46 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e19b0477-232e-4196-a194-01ce89543ad6")
+		(property "Reference" "H4"
+			(at 127 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 127 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10117,6 +12075,73 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3b3efb3-5201-427f-8679-0ad2ec8ee131")
+		(property "Reference" "#PWR027"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5c0fea5-40b5-46fd-ab1f-746815668c09")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
