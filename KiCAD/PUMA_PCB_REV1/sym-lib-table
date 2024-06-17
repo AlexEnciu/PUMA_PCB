@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SiPM_Onsemi")(type "KiCad")(uri "${PUMA_PCB}/FootPrint_Symbols/MICROFC-30035-SMT-TR1.kicad_sym")(options "")(descr ""))
   (lib (name "Samtec_Header")(type "KiCad")(uri "${PUMA_PCB}/FootPrint_Symbols/SAMTEC-TMM-116-01-X-D-SM.kicad_sym")(options "")(descr ""))
+  (lib (name "HV_connect_phoenix")(type "KiCad")(uri "${PUMA_3D}/2024-06-13_13-39-38.kicad_sym")(options "")(descr ""))
 )

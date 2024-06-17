@@ -262,6 +262,243 @@
 				)
 			)
 		)
+		(symbol "HV_connect_phoenix:1778764"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CONN_1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_1778764"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1778764_0_1"
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1853,6 +2090,12 @@
 		(uuid "9ea85c5a-42e3-4b72-b7be-c70c98932393")
 	)
 	(junction
+		(at 124.46 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5df7078-c5bd-4dfb-830a-d7b046ac4929")
+	)
+	(junction
 		(at 148.59 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2196,6 +2439,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 170.18) (xy 124.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d69078c-883a-4102-a2c2-b85c944290c3")
+	)
+	(wire
+		(pts
 			(xy 152.4 34.29) (xy 166.37 34.29)
 		)
 		(stroke
@@ -2483,6 +2736,16 @@
 			(type default)
 		)
 		(uuid "96a91bc4-c7ed-4e10-adf6-ee38e15000c3")
+	)
+	(wire
+		(pts
+			(xy 124.46 170.18) (xy 125.73 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b540a7c-fe47-42f4-88a4-be8b1efdb82a")
 	)
 	(wire
 		(pts
@@ -2953,6 +3216,28 @@
 		(uuid "0d2a724d-b235-45a2-bd87-5cb7834db326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.77 115.7732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+HV"
+		(shape input)
+		(at 123.19 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1050463b-cf97-4009-a8e2-569bceef0055")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2133 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 270.51 44.45 0)
 			(effects
 				(font
@@ -4233,7 +4518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 237.49 44.45 0)
 			(effects
 				(font
@@ -5175,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:SAMTEC-TMM-116-01-X-D-SM"
+		(property "Footprint" "SAMTEC-TMM-116-01-X-D-SM:SAMTEC-TMM-116-01-X-D-SM"
 			(at 40.64 143.51 0)
 			(effects
 				(font
@@ -5483,7 +5768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 270.51 96.52 0)
 			(effects
 				(font
@@ -6364,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -6638,7 +6923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -6913,7 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -7366,6 +7651,78 @@
 		)
 	)
 	(symbol
+		(lib_id "HV_connect_phoenix:1778764")
+		(at 124.46 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702ea150-2486-4488-8bf9-3208da4fb84e")
+		(property "Reference" "J2"
+			(at 138.43 170.1799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1778764"
+			(at 138.43 172.7199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_1778764"
+			(at 124.46 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1778764"
+			(at 124.46 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59e925f0-e946-40ff-a439-d27492cf3e7e")
+		)
+		(pin "1"
+			(uuid "dabd5f96-266a-47c9-aa5c-fae0251768c1")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 41.91 0)
 		(unit 1)
@@ -7460,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 203.2 44.45 0)
 			(effects
 				(font
@@ -7936,7 +8293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -8680,7 +9037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 168.91 44.45 0)
 			(effects
 				(font
@@ -8957,7 +9314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -9165,7 +9522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -9339,6 +9696,73 @@
 			(project "PUMA_PCB_REV1"
 				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
 					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9f45727-1926-4d5f-8b41-a8916e738c2b")
+		(property "Reference" "#PWR034"
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1b107b7-1959-435d-9d5c-a31ab949ba74")
+		)
+		(instances
+			(project "PUMA_PCB_REV1"
+				(path "/728b3b4b-95de-48a3-a5eb-46f49b15d2ed"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9576,7 +10000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 237.49 96.52 0)
 			(effects
 				(font
@@ -10469,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -11623,7 +12047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -11831,7 +12255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -12311,7 +12735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
 			(at 33.02 44.45 0)
 			(effects
 				(font
