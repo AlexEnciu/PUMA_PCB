@@ -1,4 +1,4 @@
-23366600336920317
+23371755173262315
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67445,6 +67445,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PUMA_3D
+CONN_1778764
+
+1778764 
+0
+4
+4
+PUMA_3D
 SAMTEC-TMM-116-01-X-D-SM
 translated Allegro footprint
 
@@ -67455,6 +67462,13 @@ PUMA_3D
 XDCR_MICROFC-30035-SMT-TR1
 
 
+0
+4
+4
+PUMA_FP
+CONN_1778764
+
+1778764 
 0
 4
 4
@@ -88199,6 +88213,13 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+SiPM_Onsemi
+CONN_1778764
+
+1778764 
+0
+4
+4
 SiPM_Onsemi
 SAMTEC-TMM-116-01-X-D-SM
 translated Allegro footprint

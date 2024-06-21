@@ -4311,7 +4311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 270.51 44.45 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 237.49 44.45 0)
 			(effects
 				(font
@@ -5460,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMTEC-TMM-116-01-X-D-SM:SAMTEC-TMM-116-01-X-D-SM"
+		(property "Footprint" "SiPM_Onsemi:SAMTEC-TMM-116-01-X-D-SM"
 			(at 40.64 143.51 0)
 			(effects
 				(font
@@ -5768,14 +5768,13 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 270.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6649,7 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -6923,7 +6922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -7198,7 +7197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -7817,7 +7816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 203.2 44.45 0)
 			(effects
 				(font
@@ -8293,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -9037,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 168.91 44.45 0)
 			(effects
 				(font
@@ -9314,7 +9313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -9522,7 +9521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -9933,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 237.49 96.52 0)
 			(effects
 				(font
@@ -10826,7 +10825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 67.31 96.52 0)
 			(effects
 				(font
@@ -11980,7 +11979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -12188,7 +12187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -12668,7 +12667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 33.02 44.45 0)
 			(effects
 				(font
