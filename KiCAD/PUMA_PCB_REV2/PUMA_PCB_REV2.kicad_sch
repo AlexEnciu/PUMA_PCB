@@ -5,7 +5,7 @@
 	(uuid "31b68516-5cda-4947-89a4-f2f721ffe751")
 	(paper "A4")
 	(lib_symbols
-		(symbol "43045-0400:43045-0400"
+		(symbol "440055-3:440055-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "43045-0400"
+			(property "Value" "440055-3"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "43045-04(00,01,02,10)"
+			(property "Footprint" "SHDRRA3W50P0X200_1X3_800X770X525P"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773713-2_HPI_QRG_EN&DocType=Data%20Sheet&DocLang=English&PartCntxt=440055-3&DocFormat=pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 4 Circuits, with Snap-in Plastic Peg PCB Lock"
+			(property "Description" "Body Features: Primary Product Color Natural | Configuration Features: Number of Positions 3 | PCB Mount Orientation Right Angle | Number of Rows 1 | Contact Features: Contact Shape & Form Square | PCB Contact Termination Area Plating Material Finish Bright | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Contact Type Pin | PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 3 AMP | Mating Square Post Dimension .02 INCH | Contact Mating Area Plating Mat"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "9.9"
+			(property "Height" "5.25"
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "538-43045-0400"
+			(property "Mouser Part Number" "571-440055-3"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0400?qs=UeCeOHRHQeaIqmxE9Bxdrw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/440055-3?qs=DE9Qji9blsStVLQbNt6jiQ%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Molex"
+			(property "Manufacturer_Name" "TE Connectivity"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "43045-0400"
+			(property "Manufacturer_Part_Number" "440055-3"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -106,10 +106,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "43045-0400_1_1"
+			(symbol "440055-3_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -5.08)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -119,7 +119,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 0 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -155,7 +155,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -165,24 +165,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 62.23 127)
+			(xy 87.63 140.97) (xy 62.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1256,6 +1238,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 138.43) (xy 87.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208185d1-9e6d-4bfd-8c4b-25c12390207b")
+	)
+	(wire
+		(pts
 			(xy 77.47 114.3) (xy 77.47 106.68)
 		)
 		(stroke
@@ -1263,6 +1255,16 @@
 			(type default)
 		)
 		(uuid "28ac29f9-d37d-40a1-aaf3-cb28d57e4116")
+	)
+	(wire
+		(pts
+			(xy 83.82 111.76) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a68ccc-0b40-4263-ba57-1d4907a8d7ad")
 	)
 	(wire
 		(pts
@@ -1283,16 +1285,6 @@
 			(type default)
 		)
 		(uuid "62d94f04-c01c-40ad-ae96-5f153eb51a16")
-	)
-	(wire
-		(pts
-			(xy 97.79 111.76) (xy 97.79 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d090a9-19ae-443b-8b25-d46406930f6c")
 	)
 	(wire
 		(pts
@@ -1326,6 +1318,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 119.38) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9693192f-05ac-47a5-b360-f5b92f8292cb")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fcd2c4-4e9e-4a3f-aa87-89b928849d60")
+	)
+	(wire
+		(pts
 			(xy 77.47 95.25) (xy 97.79 95.25)
 		)
 		(stroke
@@ -1346,13 +1358,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 127) (xy 97.79 127)
+			(xy 80.01 119.38) (xy 80.01 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0ba69c2-f629-46f5-ba8c-5e9e06ec22c7")
+		(uuid "c4313b57-241c-4e6f-84a9-16b0dbde0feb")
 	)
 	(wire
 		(pts
@@ -1376,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 62.23 127)
+			(xy 62.23 111.76) (xy 62.23 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1482,7 @@
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 74.93 129.54 180)
+		(at 87.63 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1480,7 +1492,7 @@
 		)
 		(uuid "ddb6a70c-5eb6-4292-b511-4161640051da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.9533 129.54 0)
+			(at 80.6533 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +1530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -1624,6 +1636,132 @@
 		)
 	)
 	(symbol
+		(lib_id "440055-3:440055-3")
+		(at 87.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a5c5091-ffce-4932-8c88-9d28581507c6")
+		(property "Reference" "J1"
+			(at 104.14 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "440055-3"
+			(at 104.14 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SHDRRA3W50P0X200_1X3_800X770X525P"
+			(at 104.14 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773713-2_HPI_QRG_EN&DocType=Data%20Sheet&DocLang=English&PartCntxt=440055-3&DocFormat=pdf"
+			(at 104.14 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Natural | Configuration Features: Number of Positions 3 | PCB Mount Orientation Right Angle | Number of Rows 1 | Contact Features: Contact Shape & Form Square | PCB Contact Termination Area Plating Material Finish Bright | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Contact Type Pin | PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 3 AMP | Mating Square Post Dimension .02 INCH | Contact Mating Area Plating Mat"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.25"
+			(at 104.14 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-440055-3"
+			(at 104.14 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/440055-3?qs=DE9Qji9blsStVLQbNt6jiQ%3D%3D"
+			(at 104.14 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 104.14 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "440055-3"
+			(at 104.14 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dce5a440-7500-4270-a6a6-30512dbfdddf")
+		)
+		(pin "1"
+			(uuid "2bce488f-9c68-4f45-a564-13bdbb40a7df")
+		)
+		(pin "3"
+			(uuid "fa24c8c0-e657-4d0a-aef6-93c0f02cfb8b")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 114.3 0)
 		(unit 1)
@@ -1716,7 +1854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 60.452 90.17 90)
 			(effects
 				(font
@@ -1785,7 +1923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 96.012 90.17 90)
 			(effects
 				(font
@@ -1855,7 +1993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 42.8752 106.68 0)
 			(effects
 				(font
@@ -1898,132 +2036,6 @@
 		)
 	)
 	(symbol
-		(lib_id "43045-0400:43045-0400")
-		(at 74.93 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4989f611-e73e-4a3a-9a1e-4fa902c84a8d")
-		(property "Reference" "J1"
-			(at 85.09 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43045-0400"
-			(at 85.09 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 221.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf"
-			(at 91.44 321.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Dual Row, 4 Circuits, with Snap-in Plastic Peg PCB Lock"
-			(at 74.93 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.9"
-			(at 91.44 521.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-43045-0400"
-			(at 91.44 621.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43045-0400?qs=UeCeOHRHQeaIqmxE9Bxdrw%3D%3D"
-			(at 91.44 721.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 91.44 821.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "43045-0400"
-			(at 91.44 921.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c5acc8f-b6a0-4feb-9e4b-8be7e2694bcf")
-		)
-		(pin "1"
-			(uuid "c8103e16-5ef7-4e40-a105-f24b84651309")
-		)
-		(pin "3"
-			(uuid "32d241ae-8bbe-4147-b170-e40ce586a2e9")
-		)
-		(pin "4"
-			(uuid "de8b52a6-e892-4163-a747-6976a7d7d7c1")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MICROFC-30035-SMT-TR1:MICROFC-30035-SMT-TR1")
 		(at 100.33 104.14 90)
 		(unit 1)
@@ -2050,7 +2062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 100.33 104.14 0)
 			(effects
 				(font
@@ -2256,14 +2268,13 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MICROFC-30035-SMT-TR1:XDCR_MICROFC-30035-SMT-TR1"
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
 			(at 64.77 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -2463,7 +2474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 59.69 148.59 0)
 			(effects
 				(font
@@ -2530,7 +2541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 78.4352 106.68 0)
 			(effects
 				(font

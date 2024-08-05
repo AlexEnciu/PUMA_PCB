@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1808200
+D PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, number of connections: 3, product range: PTSM 0,5/..-HH-SMD, pitch: 2.5 mm, mounting: SMD soldering, pin layout: Linear pad geometry, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape
+K
+F http://www.phoenixcontact.com/de/produkte/1808200/pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,73 @@
+PCBNEW-LibModule-V1  2024-08-05 15:13:00
+# encoding utf-8
+Units mm
+$INDEX
+1808200
+$EndINDEX
+$MODULE 1808200
+Po 0 0 0 15 66b0ddec 00000000 ~~
+Li 1808200
+Cd 1808200
+Kw Connector
+Sc 0
+At STD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "J**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "1808200"
+DS -6.55 0.75 6.55 0.75 0.2 24
+DS 6.55 0.75 6.55 8.25 0.2 24
+DS 6.55 8.25 -6.55 8.25 0.2 24
+DS -6.55 8.25 -6.55 0.75 0.2 24
+DS 6.55 8.25 -6.55 8.25 0.1 21
+DS -8 -2.4 8 -2.4 0.05 24
+DS 8 -2.4 8 9.25 0.05 24
+DS 8 9.25 -8 9.25 0.05 24
+DS -8 9.25 -8 -2.4 0.05 24
+DC -6.35 0 -6.4 0 0.254 21
+$PAD
+Po -2.5 0
+Sh "1" R 1.2 3.2 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 0
+Sh "2" R 1.2 3.2 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.5 0
+Sh "3" R 1.2 3.2 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -6.1 4.2
+Sh "4" R 2.2 5.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 6.1 4.2
+Sh "5" R 2.2 5.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.6 5.35
+Sh "6" C 1.1 1.1 0 0 900
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.6 5.35
+Sh "7" C 1.1 1.1 0 0 900
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$EndMODULE 1808200
+$EndLIBRARY
