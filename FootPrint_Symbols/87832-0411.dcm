@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 87832-0411
+D 2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, Lead-Free, 4 Circuits, 0.76m Gold (Au) Plating, with Locking Window, without Pick-and-Place Cap, without PCB Locator, Tube
+K
+F https://www.molex.com/pdm_docs/sd/878320411_sd.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -5,7 +5,7 @@
 	(uuid "31b68516-5cda-4947-89a4-f2f721ffe751")
 	(paper "A4")
 	(lib_symbols
-		(symbol "440055-3:440055-3"
+		(symbol "87832-0411:87832-0411"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "440055-3"
+			(property "Value" "87832-0411"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SHDRRA3W50P0X200_1X3_800X770X525P"
+			(property "Footprint" "878320411"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773713-2_HPI_QRG_EN&DocType=Data%20Sheet&DocLang=English&PartCntxt=440055-3&DocFormat=pdf"
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/878320411_sd.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Body Features: Primary Product Color Natural | Configuration Features: Number of Positions 3 | PCB Mount Orientation Right Angle | Number of Rows 1 | Contact Features: Contact Shape & Form Square | PCB Contact Termination Area Plating Material Finish Bright | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Contact Type Pin | PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 3 AMP | Mating Square Post Dimension .02 INCH | Contact Mating Area Plating Mat"
+			(property "Description" "2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, Lead-Free, 4 Circuits, 0.76m Gold (Au) Plating, with Locking Window, without Pick-and-Place Cap, without PCB Locator, Tube"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "5.25"
+			(property "Height" "7.8"
 				(at 16.51 -394.92 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "571-440055-3"
+			(property "Mouser Part Number" "538-87832-0411"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/440055-3?qs=DE9Qji9blsStVLQbNt6jiQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/87832-0411?qs=kNSQ05%252BLZoARVxrc1s973A%3D%3D"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TE Connectivity"
+			(property "Manufacturer_Name" "Molex"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "440055-3"
+			(property "Manufacturer_Part_Number" "87832-0411"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -106,10 +106,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "440055-3_1_1"
+			(symbol "87832-0411_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -7.62)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -119,7 +119,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -137,7 +137,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -155,7 +155,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -165,6 +165,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1482,22 +1500,22 @@
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 87.63 135.89 180)
+		(at 107.95 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ddb6a70c-5eb6-4292-b511-4161640051da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.6533 135.89 0)
+			(at 114.9267 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1530,7 +1548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -1630,132 +1648,6 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "440055-3:440055-3")
-		(at 87.63 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a5c5091-ffce-4932-8c88-9d28581507c6")
-		(property "Reference" "J1"
-			(at 104.14 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "440055-3"
-			(at 104.14 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SHDRRA3W50P0X200_1X3_800X770X525P"
-			(at 104.14 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773713-2_HPI_QRG_EN&DocType=Data%20Sheet&DocLang=English&PartCntxt=440055-3&DocFormat=pdf"
-			(at 104.14 330.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Primary Product Color Natural | Configuration Features: Number of Positions 3 | PCB Mount Orientation Right Angle | Number of Rows 1 | Contact Features: Contact Shape & Form Square | PCB Contact Termination Area Plating Material Finish Bright | Contact Mating Area Plating Material Tin | Contact Base Material Brass | Contact Type Pin | PCB Contact Termination Area Plating Material Tin | Contact Current Rating (Max) 3 AMP | Mating Square Post Dimension .02 INCH | Contact Mating Area Plating Mat"
-			(at 87.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.25"
-			(at 104.14 530.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-440055-3"
-			(at 104.14 630.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/440055-3?qs=DE9Qji9blsStVLQbNt6jiQ%3D%3D"
-			(at 104.14 730.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 104.14 830.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "440055-3"
-			(at 104.14 930.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dce5a440-7500-4270-a6a6-30512dbfdddf")
-		)
-		(pin "1"
-			(uuid "2bce488f-9c68-4f45-a564-13bdbb40a7df")
-		)
-		(pin "3"
-			(uuid "fa24c8c0-e657-4d0a-aef6-93c0f02cfb8b")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2474,7 +2366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 59.69 148.59 0)
 			(effects
 				(font
@@ -2508,6 +2400,132 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "87832-0411:87832-0411")
+		(at 87.63 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4ee31de-4404-4862-bfdd-2a0d8f96b351")
+		(property "Reference" "J1"
+			(at 97.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "87832-0411"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "878320411"
+			(at 104.14 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/878320411_sd.pdf"
+			(at 104.14 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, Lead-Free, 4 Circuits, 0.76m Gold (Au) Plating, with Locking Window, without Pick-and-Place Cap, without PCB Locator, Tube"
+			(at 87.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.8"
+			(at 104.14 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-87832-0411"
+			(at 104.14 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/87832-0411?qs=kNSQ05%252BLZoARVxrc1s973A%3D%3D"
+			(at 104.14 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 104.14 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "87832-0411"
+			(at 104.14 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5b4cb4-3ac2-42c8-8798-3c269fee8d60")
+		)
+		(pin "4"
+			(uuid "365a0ee1-a600-412d-a590-c48045c1f26c")
+		)
+		(pin "2"
+			(uuid "c5c493ce-c662-4835-8ecf-59904eb3f478")
+		)
+		(pin "3"
+			(uuid "68c27b72-be4a-47ef-821c-59c544392220")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "J1")
 					(unit 1)
 				)
 			)
