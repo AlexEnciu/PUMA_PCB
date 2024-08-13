@@ -192,42 +192,50 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 8.89 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "CGA3EANP02A103J080AC"
+				(at 8.89 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,40 +244,63 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
+			(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+				(at 8.89 -496.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+				(at 8.89 -596.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CGA3EANP02A103J080AC_1_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy 5.08 0) (xy 5.588 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -278,22 +309,44 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy 5.588 2.54) (xy 5.588 -2.54)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "C_1_1"
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,9 +362,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,6 +372,193 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 26.67 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CONMHF4-SMD-G-T"
+				(at 26.67 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CONMHF4SMDGT"
+				(at 26.67 -84.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"
+				(at 26.67 -184.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.6"
+				(at 26.67 -384.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 26.67 -484.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"
+				(at 26.67 -584.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 26.67 -684.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CONMHF4-SMD-G-T"
+				(at 26.67 -784.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CONMHF4-SMD-G-T_1_1"
+				(rectangle
+					(start 5.08 12.7)
+					(end 25.4 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 90)
+					(length 5.08)
+					(name "SIGNAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1017,23 +1257,212 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+		(symbol "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MMJCG168CB7105KRPA18"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC1608X90N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TAIYO YUDEN"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MMJCG168CB7105KRPA18_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1058,7 +1487,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1076,7 +1505,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1085,9 +1514,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1095,26 +1524,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1217,16 +1626,76 @@
 		)
 	)
 	(junction
-		(at 97.79 95.25)
+		(at 62.23 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0686435d-ae92-4485-8129-08f46a58bd42")
+		(uuid "1621bf80-0e6a-4875-988d-e06983b84c2e")
 	)
 	(junction
-		(at 59.69 151.13)
+		(at 152.4 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e5d4e23-75c7-4261-90a4-2086d1cd94c8")
+		(uuid "1bb69cea-0d0f-4fc9-8596-a3c8543816f7")
+	)
+	(junction
+		(at 62.23 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7d9ad7-e241-4ea9-8fe6-121f18beabb1")
+	)
+	(junction
+		(at 152.4 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3707041f-716a-4ee0-88b3-416ceac23590")
+	)
+	(junction
+		(at 152.4 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c51ba92-d176-4559-9144-ecf5089aadfd")
+	)
+	(junction
+		(at 62.23 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91134f00-d611-41dd-9933-14a9daae3043")
+	)
+	(junction
+		(at 62.23 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a009deb-a815-41ee-bd23-62ead4850d73")
+	)
+	(junction
+		(at 62.23 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bff79799-9046-48e5-b323-a5cbb45d6f14")
+	)
+	(junction
+		(at 152.4 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c34f2b91-2500-4564-82d2-451d8840cdbd")
+	)
+	(junction
+		(at 62.23 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82a5766-0b84-4b7a-982d-23cc7d5c747b")
+	)
+	(junction
+		(at 152.4 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9850a33-3ed4-4e34-b6de-e0e6a8eb4bb2")
+	)
+	(junction
+		(at 152.4 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb8ea9e0-6599-49f2-ba89-86387aa343c3")
 	)
 	(junction
 		(at 62.23 95.25)
@@ -1234,69 +1703,95 @@
 		(color 0 0 0 0)
 		(uuid "fcb33880-879a-49c7-9bc3-ad69f57b61a3")
 	)
+	(junction
+		(at 152.4 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff7366a-4459-4d87-9d14-262f2359cdce")
+	)
 	(wire
 		(pts
-			(xy 107.95 144.78) (xy 107.95 140.97)
+			(xy 62.23 127) (xy 62.23 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "017815aa-2361-4f3a-8240-14efaa236163")
+		(uuid "00d32130-7876-4dbd-b582-658ac2719665")
 	)
 	(wire
 		(pts
-			(xy 90.17 142.24) (xy 90.17 144.78)
+			(xy 62.23 147.32) (xy 62.23 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18d3e4f4-f869-4060-b4f7-437e2effe11e")
+		(uuid "112d7c24-85dd-4095-a638-c1728761a771")
 	)
 	(wire
 		(pts
-			(xy 59.69 151.13) (xy 82.55 151.13)
+			(xy 30.48 113.03) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1df26ba2-4bbc-4c82-b3a9-2d4fdbef609b")
+		(uuid "1cf183c9-e50b-4e55-85ee-d8ca485ad362")
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 77.47 106.68)
+			(xy 62.23 137.16) (xy 62.23 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28ac29f9-d37d-40a1-aaf3-cb28d57e4116")
+		(uuid "387e55c8-f9d7-4365-8c90-1ef7aca24a63")
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 97.79 111.76)
+			(xy 146.05 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29a68ccc-0b40-4263-ba57-1d4907a8d7ad")
+		(uuid "3b8bf443-f553-4bd2-b07f-835f5dedab9b")
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 58.42 151.13)
+			(xy 55.88 85.09) (xy 62.23 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f442f4d-4337-42c1-9a93-65d3c174153d")
+		(uuid "4586c1d5-f3ea-47b2-8952-14cf20879ac2")
 	)
 	(wire
 		(pts
-			(xy 41.91 95.25) (xy 62.23 95.25)
+			(xy 152.4 82.55) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b710939-41cc-4fa9-bc71-bca37ac5960f")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a3731e-d23e-42c0-a484-738afbfc2d82")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1306,117 +1801,167 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 151.13) (xy 59.69 151.13)
+			(xy 62.23 85.09) (xy 62.23 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c59e3e3-cfb5-4048-a1fe-3813b60376c5")
+		(uuid "638340a2-ebb0-4fc5-a9ce-93562acf8f0f")
 	)
 	(wire
 		(pts
-			(xy 80.01 140.97) (xy 87.63 140.97)
+			(xy 38.1 147.32) (xy 41.91 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fdbcde5-ddd1-41eb-a402-e893c4c0a059")
+		(uuid "70559a46-c7ae-46df-8727-2ba3ed11633c")
 	)
 	(wire
 		(pts
-			(xy 62.23 142.24) (xy 90.17 142.24)
+			(xy 146.05 72.39) (xy 152.4 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e6d733c-be80-4766-a820-9d440960583f")
+		(uuid "75cb18dd-7c8e-4b09-afc0-04bdcf195304")
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 77.47 99.06)
+			(xy 152.4 109.22) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fe6441e-86f3-4a9a-8373-d6c6a8b8efc0")
+		(uuid "872278b6-0988-4b47-99e4-a9cf2210ce88")
 	)
 	(wire
 		(pts
-			(xy 41.91 114.3) (xy 41.91 106.68)
+			(xy 50.8 127) (xy 62.23 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9332107f-0886-4e52-88c7-03e443a82cdf")
+		(uuid "8c0796d5-67e1-492c-85bd-aa16bb192ce9")
 	)
 	(wire
 		(pts
-			(xy 83.82 119.38) (xy 83.82 111.76)
+			(xy 132.08 110.49) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9693192f-05ac-47a5-b360-f5b92f8292cb")
+		(uuid "9339438e-2e04-4da6-a4e7-dccc985eba53")
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 83.82 119.38)
+			(xy 132.08 92.71) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4fcd2c4-4e9e-4a3f-aa87-89b928849d60")
+		(uuid "9bba80a5-ac74-4121-92b2-2a494296e56b")
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 97.79 95.25)
+			(xy 132.08 92.71) (xy 152.4 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab4b9318-906c-40ba-87e5-06050e93c90a")
+		(uuid "9fea592c-3954-4cff-a3fc-b11241763ae0")
 	)
 	(wire
 		(pts
-			(xy 97.79 95.25) (xy 97.79 96.52)
+			(xy 163.83 134.62) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfe41136-688c-410a-b430-e7bbe6f7d30f")
+		(uuid "a35b95ec-a940-4c9b-b7a0-70c8864c030e")
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 80.01 140.97)
+			(xy 152.4 134.62) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4313b57-241c-4e6f-84a9-16b0dbde0feb")
+		(uuid "a68f85fa-297f-483b-970a-5ce8db4a7b0f")
 	)
 	(wire
 		(pts
-			(xy 97.79 93.98) (xy 97.79 95.25)
+			(xy 55.88 64.77) (xy 62.23 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cafdbfa9-bbb6-40d9-872e-c5c99e540db9")
+		(uuid "ac58e24e-81ad-42ef-b764-a6f489f073e3")
 	)
 	(wire
 		(pts
-			(xy 41.91 95.25) (xy 41.91 99.06)
+			(xy 152.4 62.23) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae576eca-eb03-4651-b345-77cbe1fe8beb")
+	)
+	(wire
+		(pts
+			(xy 62.23 74.93) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6f443c-6480-4e30-8fcc-86e7548a033a")
+	)
+	(wire
+		(pts
+			(xy 163.83 124.46) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98b91ee-3e2b-4e09-a7e7-021f5a2f9d0a")
+	)
+	(wire
+		(pts
+			(xy 163.83 144.78) (xy 152.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ff38a8-beb2-4f3c-8609-238104bbbc0e")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb66acb4-eb73-41a4-a55c-e4a70498dbf5")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 30.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1426,13 +1971,73 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 62.23 142.24)
+			(xy 50.8 137.16) (xy 62.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd717ad6-9c41-4f47-bd92-901217f4c09a")
+	)
+	(wire
+		(pts
+			(xy 152.4 144.78) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce63620c-7730-4672-9996-8a81e70e30ac")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c7f099-fcc5-4a6f-96fd-bac3f4de7f78")
+	)
+	(wire
+		(pts
+			(xy 152.4 144.78) (xy 152.4 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f662f8-4b1a-4588-93e2-3f044a187c61")
+	)
+	(wire
+		(pts
+			(xy 62.23 64.77) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dfe983-f58c-4474-bede-b24352b54b1c")
+	)
+	(wire
+		(pts
+			(xy 62.23 111.76) (xy 62.23 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5aded05-2bd1-4bd5-bd06-b7f093704f39")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ca1cbb-6b42-4dcf-804e-ddeebbea9501")
 	)
 	(wire
 		(pts
@@ -1446,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 62.23) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f646c2-cb6a-4644-916a-300cc62b2703")
+	)
+	(wire
+		(pts
 			(xy 62.23 95.25) (xy 62.23 96.52)
 		)
 		(stroke
@@ -1456,17 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 144.78) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f312761b-e8a1-4856-a41b-a8f2241e512f")
-	)
-	(wire
-		(pts
-			(xy 62.23 85.09) (xy 62.23 86.36)
+			(xy 62.23 59.69) (xy 62.23 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1476,39 +2081,27 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 97.79 86.36)
+			(xy 54.61 147.32) (xy 62.23 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc2d71f1-76c0-4099-a985-0240f7fa14db")
+		(uuid "facf4e72-0d45-4079-bb55-cb45357a31c5")
+	)
+	(wire
+		(pts
+			(xy 152.4 92.71) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8aa667-61cb-41ab-9411-d11595ee44dc")
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 97.79 85.09 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36523f9b-3290-46a4-8897-0115b7b36567")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 78.1133 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HV+"
-		(shape input)
-		(at 62.23 85.09 90)
+		(at 62.23 59.69 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1518,7 +2111,7 @@
 		)
 		(uuid "499876ec-0760-4cd3-aaed-a235c42e3b19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 78.1133 90)
+			(at 62.23 52.7133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +2123,29 @@
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 107.95 138.43 0)
+		(at 83.82 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60d23c97-44bc-4fc3-9369-70ad9e99599b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8433 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HV+"
+		(shape input)
+		(at 152.4 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1538,9 +2153,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ddb6a70c-5eb6-4292-b511-4161640051da")
+		(uuid "a856f818-3d71-41bc-9c08-2fb7e3ce303e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9267 138.43 0)
+			(at 152.4 50.1733 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,85 +2165,40 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 82.55 148.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
+	(global_label "HV+"
+		(shape input)
+		(at 83.82 53.34 180)
 		(fields_autoplaced yes)
-		(uuid "03482e0b-3bab-4542-b8f1-9167a1cdb01e")
-		(property "Reference" "H2"
-			(at 85.09 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 85.09 148.5899 0)
+		(uuid "deb4b22a-e351-49ac-86e6-0ea1e06b130e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8433 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 82.55 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 82.55 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "022d5092-6b5e-4508-a4e1-7cd5bc4de0e7")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H2")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 114.3 0)
+		(at 132.08 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15ff5a70-6abf-410e-b6e5-227767286953")
-		(property "Reference" "#PWR02"
-			(at 77.47 120.65 0)
+		(uuid "01301212-03fc-4386-b532-f4006169af2d")
+		(property "Reference" "#PWR012"
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +2207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 119.38 0)
+			(at 132.08 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +2215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 114.3 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +2224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 114.3 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +2233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 114.3 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,12 +2242,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cff02e28-3d96-4c36-b551-bd32d449d60c")
+			(uuid "94f0fe40-5ed6-4cd2-bea9-15cb3dfb2178")
 		)
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR02")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1685,7 +2255,274 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 114.3 0)
+		(at 38.1 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09fc055f-07f0-4b35-a1a2-d9bf85ee59b4")
+		(property "Reference" "#PWR07"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1601fda2-d391-4e08-af16-c36d39aa82f0")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c3c9ee-f6f6-427e-8613-668c22093117")
+		(property "Reference" "#PWR08"
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "818f34eb-cf76-45c0-83da-af42bbdd793d")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b897d38-b1d3-432d-a60e-8d243da4c57c")
+		(property "Reference" "#PWR019"
+			(at 116.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "482355f6-e34a-4665-a905-35590d2dad1a")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e6a6e5f-4256-49b4-9cf6-c1411e1bd535")
+		(property "Reference" "#PWR06"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f60bcf43-c531-4379-a709-576783f1775d")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1694,7 +2531,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e88581a-adaa-4a3a-8fb9-f5fb69005587")
 		(property "Reference" "#PWR01"
-			(at 41.91 120.65 0)
+			(at 30.48 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +2540,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 119.38 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +2548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 114.3 0)
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +2557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 114.3 0)
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +2566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 114.3 0)
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,6 +2581,72 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea5d037-91b4-48b9-b475-a142b8285815")
+		(property "Reference" "#PWR020"
+			(at 97.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba39f53-4f81-4d4a-96f7-348830850cc3")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1819,104 +2722,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b3b985a-1797-4488-b6b0-80eebf5813e3")
-		(property "Reference" "R2"
-			(at 100.076 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 100.33 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 96.012 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "626506cb-29e5-4541-ab5a-f63fa163fcd6")
-		)
-		(pin "1"
-			(uuid "37359475-3bb0-49f4-a744-c73f9c4bdb69")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 41.91 102.87 0)
+		(lib_id "power:GND")
+		(at 43.18 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3dd57432-ff30-465d-9d69-deb42eb556ad")
-		(property "Reference" "C1"
-			(at 45.72 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nA/50V"
-			(at 45.72 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 42.8752 106.68 0)
+		(uuid "399c15c3-c3c6-4e1f-ada5-6af8a5e8d015")
+		(property "Reference" "#PWR05"
+			(at 36.83 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,8 +2740,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 102.87 0)
+		(property "Value" "GND"
+			(at 39.37 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,8 +2758,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 41.91 102.87 0)
+		(property "Datasheet" ""
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,15 +2777,1744 @@
 			)
 		)
 		(pin "1"
-			(uuid "77b6627a-0074-4107-967e-6ae64628ca6d")
-		)
-		(pin "2"
-			(uuid "24afdbd5-e04e-4058-9153-9ee192a2cb87")
+			(uuid "d8535e78-ce7d-4dfd-8040-5eda919551a7")
 		)
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C1")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
+		(at 41.91 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41564dac-a867-4562-b3ed-deae5aef0064")
+		(property "Reference" "C7"
+			(at 48.26 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF / 35 V"
+			(at 48.26 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 50.8 243.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
+			(at 50.8 343.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 50.8 543.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 50.8 643.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 50.8 743.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 50.8 843.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
+			(at 50.8 943.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "559c16db-d734-48bc-8b0a-ac6c86446104")
+		)
+		(pin "1"
+			(uuid "67ffb60c-c6db-464b-a636-d51f80fc1d00")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 38.1 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417e49ad-67d9-4d7f-9950-b1020049ba8b")
+		(property "Reference" "C6"
+			(at 44.45 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF / 35 V"
+			(at 43.942 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 46.99 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 46.99 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MJCG168BB7104M"
+			(at 46.99 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+			(at 46.99 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " TAIYO YUDEN"
+			(at 46.99 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+			(at 46.99 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38a1fce2-00db-4baf-82f4-931745d22dbd")
+		)
+		(pin "1"
+			(uuid "755ff66a-17a0-4572-8317-2ee95e91f700")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
+		(at 133.35 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ba28b3a-a9de-4858-ac20-6ade8c8f4dc2")
+		(property "Reference" "C10"
+			(at 139.7 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF / 35 V"
+			(at 139.7 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 142.24 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
+			(at 142.24 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 142.24 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 142.24 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 142.24 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 142.24 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
+			(at 142.24 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "409ea485-572b-4e46-8345-e7152ea2973b")
+		)
+		(pin "1"
+			(uuid "96c0efe4-7345-414f-9d72-0748c2229e99")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 133.35 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e4ca4a3-3fe7-456a-867f-e1440e313851")
+		(property "Reference" "C9"
+			(at 139.7 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF / 35 V"
+			(at 139.192 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 142.24 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 142.24 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MJCG168BB7104M"
+			(at 142.24 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+			(at 142.24 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " TAIYO YUDEN"
+			(at 142.24 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+			(at 142.24 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb21cbce-1b36-4530-adef-63ba3fbcf42c")
+		)
+		(pin "1"
+			(uuid "7ebad165-19f1-4cf0-98fb-b07e0100b3c6")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 113.03 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63cba1e8-54da-4a9c-a7b3-0b0dfe194fb5")
+		(property "Reference" "H3"
+			(at 115.57 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 115.57 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:Castelated_Hold_Right"
+			(at 113.03 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 113.03 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T")
+		(at 80.01 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66642027-7f8d-4e4a-a288-9aee579d718d")
+		(property "Reference" "J2"
+			(at 78.994 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONMHF4-SMD-G-T"
+			(at 79.756 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CONMHF4SMDGT"
+			(at -4.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"
+			(at -104.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"
+			(at 80.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at -304.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at -404.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"
+			(at -504.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at -604.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONMHF4-SMD-G-T"
+			(at -704.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "77fdcb2b-e612-4438-9079-5736872ff4cd")
+		)
+		(pin "1"
+			(uuid "ef962118-28f9-4849-b21f-d2b9952fb6a8")
+		)
+		(pin "2"
+			(uuid "f3363f09-a325-4c15-a09d-a30a50cb75d5")
+		)
+		(pin "4"
+			(uuid "61ce1362-0064-49a8-8b54-9dde68314fa1")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "678b097c-cc2a-420a-9126-c84808bd59d0")
+		(property "Reference" "#PWR014"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4630efd-e3bc-4296-9d9a-58cc9c6f8e7b")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T")
+		(at 134.62 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6840ebd6-8d79-4b5c-8edb-eb0c120d83a4")
+		(property "Reference" "J3"
+			(at 133.35 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONMHF4-SMD-G-T"
+			(at 132.334 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CONMHF4SMDGT"
+			(at 219.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"
+			(at 319.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 519.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 619.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"
+			(at 719.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 819.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CONMHF4-SMD-G-T"
+			(at 919.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cd5917a4-6a43-4d63-98a6-6cf23ed354a4")
+		)
+		(pin "1"
+			(uuid "eedd267a-260c-4b4f-9cc6-cbb1443009fb")
+		)
+		(pin "2"
+			(uuid "c0202b86-be7d-4e2f-ac20-efc749567c51")
+		)
+		(pin "4"
+			(uuid "3b656aa2-2548-4a51-b00f-fe50a274bb7b")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6afd5f8e-bc85-49cb-90fe-33e6bf5e9085")
+		(property "Reference" "#PWR09"
+			(at 31.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52f50da9-0119-4408-8202-e59eed7c26d0")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
+		(at 163.83 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b233997-cc11-4bfa-a428-d93a9d88fbe2")
+		(property "Reference" "C14"
+			(at 170.18 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF / 35 V"
+			(at 170.18 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 172.72 240.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
+			(at 172.72 340.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
+			(at 163.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 172.72 540.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 172.72 640.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 172.72 740.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 172.72 840.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
+			(at 172.72 940.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff93c9a2-280b-45d4-8908-7e6680c43958")
+		)
+		(pin "1"
+			(uuid "fa14877f-ad05-4d28-b771-2d118d17e7ce")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70f1ae50-b2bb-464e-a9b9-6692811dd997")
+		(property "Reference" "#PWR015"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "320e2e00-7a0a-416b-90e8-b4b51b200a4a")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7265d87c-23fe-4d28-b1d0-bd477bb65929")
+		(property "Reference" "#PWR04"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da83d5ba-6fb7-4200-93eb-a66739c4f1cf")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3f5ab3-ab1b-4d85-adef-4e58890ed6ea")
+		(property "Reference" "#PWR017"
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "601fac85-56dd-417f-bd39-52f4fa07b24a")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 30.48 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8487531d-8b35-4c6e-bdd8-20427e5b029c")
+		(property "Reference" "C4"
+			(at 24.638 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF / 35 V"
+			(at 26.67 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 126.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+			(at 30.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 426.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MJCG168BB7104M"
+			(at 526.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+			(at 626.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " TAIYO YUDEN"
+			(at 726.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+			(at 826.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5647e4ff-9bb5-4fec-ba9d-ffa162d50e42")
+		)
+		(pin "1"
+			(uuid "32741f12-bce1-4653-b94f-9bac4e7bfb84")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b61117-a39b-4c2d-a75d-2275351ef8c4")
+		(property "Reference" "#PWR021"
+			(at 86.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f625888-c4d6-4fd0-a83e-e3284e163727")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c6c0e9-b60e-4bfb-9c5c-44787a90a668")
+		(property "Reference" "H1"
+			(at 76.2 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 76.2 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:CastellatedHole"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 163.83 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab7f839-db30-4be7-bd9c-aa34a441062f")
+		(property "Reference" "C12"
+			(at 170.18 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 nF / 100 V"
+			(at 170.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+			(at 172.72 220.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 320.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 172.72 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 172.72 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 172.72 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 172.72 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 172.72 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0da90aa-c746-489c-975f-eb110dc520ba")
+		)
+		(pin "1"
+			(uuid "951de2c5-954c-4bdb-bf70-2d91e1f24623")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 43.18 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92bcf213-4f79-4e4c-974f-662de8207ed7")
+		(property "Reference" "C2"
+			(at 49.53 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF / 35 V"
+			(at 49.022 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 52.07 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 52.07 471.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MJCG168BB7104M"
+			(at 52.07 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+			(at 52.07 671.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " TAIYO YUDEN"
+			(at 52.07 771.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+			(at 52.07 871.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c5a8bfb-e0cd-4f9d-bf8d-645cc3d159e9")
+		)
+		(pin "1"
+			(uuid "d1e52f93-f5c0-4cd5-832a-3f68a72ca502")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1959,15 +4522,15 @@
 	)
 	(symbol
 		(lib_id "MICROFC-30035-SMT-TR1:MICROFC-30035-SMT-TR1")
-		(at 100.33 104.14 90)
+		(at 154.94 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7ae407d0-40d3-4732-a537-2b8e2512056f")
+		(uuid "a327abf4-a000-4963-a62c-571b53e7a09f")
 		(property "Reference" "U2"
-			(at 101.346 50.292 90)
+			(at 160.528 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,16 +4539,17 @@
 			)
 		)
 		(property "Value" "MICROFC-30035-SMT-TR1"
-			(at 97.79 47.244 90)
+			(at 152.4 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +4559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +4568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +4577,7 @@
 			)
 		)
 		(property "MF" "ON Semiconductor"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +4587,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +4597,7 @@
 			)
 		)
 		(property "Package" "SMD-4 ON Semiconductor"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +4607,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +4617,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +4627,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +4637,7 @@
 			)
 		)
 		(property "PARTREV" "Issue O"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +4647,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +4657,7 @@
 			)
 		)
 		(property "MP" "MICROFC-30035-SMT-TR1"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +4667,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +4677,7 @@
 			)
 		)
 		(property "Description_1" "\nPhotodiode 420nm 600ps - 4-SMD, No Lead\n"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +4687,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +4697,7 @@
 			)
 		)
 		(property "MANUFACTURER" "On Semiconductor"
-			(at 100.33 104.14 0)
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,16 +4707,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "88bad118-0c64-46fd-b995-0d74ba363210")
+			(uuid "1f4b8a9b-5088-46c6-baf1-6959f0000ef1")
 		)
 		(pin "3"
-			(uuid "8038dab1-ff5a-406e-bdd3-67d19c95e05d")
+			(uuid "a477504e-8900-42b4-9100-43afd0fb81cb")
 		)
 		(pin "2"
-			(uuid "06ae1de2-1592-4c73-8f34-841654cad17e")
+			(uuid "3e520337-143e-4873-adb0-7c8705efea1f")
 		)
 		(pin "4"
-			(uuid "d7babf79-1a1c-44ed-93ff-775981d258b0")
+			(uuid "79c3cd87-4711-451a-998c-ba67e947a3dc")
 		)
 		(instances
 			(project "PUMA_PCB_REV2"
@@ -2173,7 +4737,7 @@
 		(dnp no)
 		(uuid "a9c5c267-479c-43bb-b5d8-4d592e85d416")
 		(property "Reference" "U1"
-			(at 65.786 50.292 90)
+			(at 70.358 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,6 +4752,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
@@ -2370,35 +4935,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 59.69 148.59 0)
+		(lib_id "power:GND")
+		(at 104.14 50.8 90)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bba0e2c9-785d-45d2-807d-7a7562f0b10a")
-		(property "Reference" "H1"
-			(at 62.23 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 62.23 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
-			(at 59.69 148.59 0)
+		(uuid "b46a4b38-c748-40a3-bfd5-92c55f845b70")
+		(property "Reference" "#PWR016"
+			(at 110.49 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,8 +4953,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 59.69 148.59 0)
+		(property "Value" "GND"
+			(at 107.95 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,8 +4971,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 59.69 148.59 0)
+		(property "Datasheet" ""
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,12 +4990,650 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb9cf134-93b2-4a7b-af6f-5aa05835ce4d")
+			(uuid "810243c3-b49a-48b0-a84e-ae04cb5529d9")
 		)
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H1")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4a18f7e-65fd-4cec-b8d4-769163a44b36")
+		(property "Reference" "#PWR010"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 134.6201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17ea3d4d-ac41-40f7-9ad5-c04fbf4fb448")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c52582-0f6e-40a0-aaa0-0cbfabafbc4c")
+		(property "Reference" "#PWR011"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 124.4601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab154ecb-c02c-4e0f-a9fc-90dbc4cc291a")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 133.35 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a40ea0-72c5-45f9-ab9a-756dc4be854c")
+		(property "Reference" "H4"
+			(at 135.89 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 135.89 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:Castelated_Hold_Right"
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 133.35 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 43.18 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd6913c-c5cf-4bea-878b-f93cb50e01ae")
+		(property "Reference" "C1"
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 nF / 100 V"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+			(at 52.07 160.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 260.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 52.07 460.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 52.07 560.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 52.07 660.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 52.07 760.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 52.07 860.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46c53ccf-5a53-4b41-9e44-7be005966d9d")
+		)
+		(pin "1"
+			(uuid "084a8389-50d2-47b0-9677-f3d97fb3d2f2")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc6f959f-d13d-4c5c-97a7-bb7b3ec4da31")
+		(property "Reference" "#PWR013"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d396ef9-f9c4-4286-9eef-61ac169d3d09")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a75f7b-31fb-48cf-bc90-bba68f9c6ffe")
+		(property "Reference" "#PWR018"
+			(at 134.62 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78051977-a423-4d64-9a50-5d78698c9993")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce27e134-3616-4ef5-a785-9483868027b6")
+		(property "Reference" "#PWR02"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 144.7801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da1347eb-c76d-49d0-a4fc-d8d05c05682b")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 133.35 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1146116-a50a-40f1-96c1-1757500b6a31")
+		(property "Reference" "C8"
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10 nF / 100 V"
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+			(at 142.24 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 142.24 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 142.24 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 142.24 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 142.24 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 142.24 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f55040d-f615-4795-95fc-edfec65c59ae")
+		)
+		(pin "1"
+			(uuid "4e759cbe-d8ee-4e99-a88f-2ab2ecef46c7")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2438,7 +5641,7 @@
 	)
 	(symbol
 		(lib_id "87832-0411:87832-0411")
-		(at 87.63 138.43 0)
+		(at 83.82 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2447,7 +5650,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4ee31de-4404-4862-bfdd-2a0d8f96b351")
 		(property "Reference" "J1"
-			(at 97.79 130.81 0)
+			(at 93.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +5658,7 @@
 			)
 		)
 		(property "Value" "87832-0411"
-			(at 97.79 133.35 0)
+			(at 93.98 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +5666,7 @@
 			)
 		)
 		(property "Footprint" "878320411"
-			(at 104.14 233.35 0)
+			(at 100.33 145.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +5676,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/878320411_sd.pdf"
-			(at 104.14 333.35 0)
+			(at 100.33 245.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +5686,7 @@
 			)
 		)
 		(property "Description" "2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, Lead-Free, 4 Circuits, 0.76m Gold (Au) Plating, with Locking Window, without Pick-and-Place Cap, without PCB Locator, Tube"
-			(at 87.63 138.43 0)
+			(at 83.82 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +5695,7 @@
 			)
 		)
 		(property "Height" "7.8"
-			(at 104.14 533.35 0)
+			(at 100.33 445.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +5705,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-87832-0411"
-			(at 104.14 633.35 0)
+			(at 100.33 545.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +5715,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/87832-0411?qs=kNSQ05%252BLZoARVxrc1s973A%3D%3D"
-			(at 104.14 733.35 0)
+			(at 100.33 645.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +5725,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 104.14 833.35 0)
+			(at 100.33 745.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +5735,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "87832-0411"
-			(at 104.14 933.35 0)
+			(at 100.33 845.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,87 +5766,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 77.47 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3b157a7-09ea-40dc-aedb-dbe7363b3027")
-		(property "Reference" "C2"
-			(at 81.28 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nA/50V"
-			(at 81.28 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 78.4352 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a218f99-f2c7-4589-80e1-db3ff6e2a12f")
-		)
-		(pin "2"
-			(uuid "a0334c13-573e-41f6-8b4d-c62ed20498f4")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 58.42 156.21 0)
+		(at 104.14 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fca37de0-bdb6-4d03-a83f-b8f73f13aefe")
+		(uuid "d798fe65-a2c2-485e-9a5f-6f07a25271f5")
 		(property "Reference" "#PWR03"
-			(at 58.42 162.56 0)
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,15 +5785,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 161.29 0)
+			(at 107.95 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 156.21 0)
+			(at 104.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +5803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 156.21 0)
+			(at 104.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +5812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 156.21 0)
+			(at 104.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,12 +5821,689 @@
 			)
 		)
 		(pin "1"
-			(uuid "0637013c-7f17-413f-9f11-d0b1caeaf987")
+			(uuid "5a822de2-8442-4094-b91f-93692bf14a71")
 		)
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 163.83 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d82d1473-5272-4487-83b7-e139762b59a2")
+		(property "Reference" "C13"
+			(at 170.18 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF / 35 V"
+			(at 169.672 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 172.72 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+			(at 163.83 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 172.72 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MJCG168BB7104M"
+			(at 172.72 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+			(at 172.72 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " TAIYO YUDEN"
+			(at 172.72 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+			(at 172.72 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef05aca2-aad9-4a14-8712-abb54197198e")
+		)
+		(pin "1"
+			(uuid "765d1e4c-1c77-444e-b8fb-e8d226c3a6a0")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 93.98 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e083bc53-44bc-4bcf-b6d6-9d0ec54e0217")
+		(property "Reference" "H2"
+			(at 96.52 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 96.52 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:CastellatedHole"
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 38.1 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57edc52-b5d9-47e3-b830-61099425e73b")
+		(property "Reference" "C5"
+			(at 44.45 120.65 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Value" "10 nF / 100 V"
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+			(at 46.99 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 46.99 523.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 46.99 623.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 46.99 723.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 46.99 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 46.99 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38ce25f7-31b2-484a-b14e-b4bd0f52a8ac")
+		)
+		(pin "1"
+			(uuid "3ffc8a64-9544-47ab-8482-accca193ab39")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed2b927f-d8c7-4ff8-aebd-2a6ffaca93f9")
+		(property "Reference" "#PWR022"
+			(at 128.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e02a2ef-d273-4b69-ae8a-8ff0611a0c1f")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6ee7a3b-9214-448c-952e-88a97a596b7a")
+		(property "Reference" "R2"
+			(at 154.686 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 154.94 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 150.622 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e443f11-9799-415a-b8ce-a2e23fb7e2b3")
+		)
+		(pin "1"
+			(uuid "1f8dddf8-f4df-4148-9172-a4b9ac89db5d")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 132.08 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7fcc3a3-388c-4468-bc92-3707d23b50fb")
+		(property "Reference" "C11"
+			(at 126.238 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF / 35 V"
+			(at 128.27 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 228.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 528.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MJCG168BB7104M"
+			(at 628.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+			(at 728.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " TAIYO YUDEN"
+			(at 828.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+			(at 928.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e33c8939-4d19-45b7-8938-5ce65e6d714a")
+		)
+		(pin "1"
+			(uuid "c308daed-46b4-45b8-9ba9-c0ea1c8d880a")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
+		(at 43.18 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe00b99d-e8b1-4dff-a416-a6ae4c3b38f1")
+		(property "Reference" "C3"
+			(at 49.53 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF / 35 V"
+			(at 49.53 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+			(at 52.07 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
+			(at 52.07 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 52.07 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 52.07 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 52.07 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 52.07 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
+			(at 52.07 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fc7f89f-194d-47fa-9b1b-d27d26d1be53")
+		)
+		(pin "1"
+			(uuid "7b446e02-1b70-4c01-9b5e-9ae4ec8a3968")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C3")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MMJCG168CB7105KRPA18
+#/19813035/1458571/2.50/2/3/Capacitor
+DEF MMJCG168CB7105KRPA18 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "MMJCG168CB7105KRPA18" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TAIYO YUDEN" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MMJCG168CB7105KRPA18" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
