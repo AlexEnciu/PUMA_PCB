@@ -2388,6 +2388,128 @@
 		)
 	)
 	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 30.48 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "142d9795-8319-477a-9e91-bfec8539ee79")
+		(property "Reference" "C4"
+			(at 34.29 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 nF / 100 V"
+			(at 34.29 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+			(at 126.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 30.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 426.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 526.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 626.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 726.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 826.67 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c9cb884-10e4-4d1d-8cac-ed113c2c74f7")
+		)
+		(pin "1"
+			(uuid "225b64dd-fcac-46aa-b18d-66945b26bfc1")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 148.59 0)
 		(unit 1)
@@ -3140,6 +3262,128 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 132.08 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d8cecea-b596-454a-b5ee-7e7520eaa38d")
+		(property "Reference" "C11"
+			(at 135.89 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 nF / 100 V"
+			(at 135.89 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+			(at 228.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 528.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 628.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 728.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 828.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 928.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8b35610-440a-444b-bc10-0981f0293952")
+		)
+		(pin "1"
+			(uuid "19093887-4846-4dca-832b-b14bd8864b00")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4026,125 +4270,6 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
-		(at 30.48 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8487531d-8b35-4c6e-bdd8-20427e5b029c")
-		(property "Reference" "C4"
-			(at 24.638 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF / 35 V"
-			(at 26.67 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
-			(at 126.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
-			(at 30.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 426.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "963-MJCG168BB7104M"
-			(at 526.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
-			(at 626.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " TAIYO YUDEN"
-			(at 726.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
-			(at 826.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5647e4ff-9bb5-4fec-ba9d-ffa162d50e42")
-		)
-		(pin "1"
-			(uuid "32741f12-bce1-4653-b94f-9bac4e7bfb84")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6266,125 +6391,6 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
-		(at 132.08 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7fcc3a3-388c-4468-bc92-3707d23b50fb")
-		(property "Reference" "C11"
-			(at 126.238 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF / 35 V"
-			(at 128.27 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
-			(at 228.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
-			(at 132.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 528.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "963-MJCG168BB7104M"
-			(at 628.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
-			(at 728.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " TAIYO YUDEN"
-			(at 828.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
-			(at 928.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e33c8939-4d19-45b7-8938-5ce65e6d714a")
-		)
-		(pin "1"
-			(uuid "c308daed-46b4-45b8-9ba9-c0ea1c8d880a")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C11")
 					(unit 1)
 				)
 			)
