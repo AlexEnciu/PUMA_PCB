@@ -1,0 +1,859 @@
+%PDF-1.5
+%ÄÅÇÉ
+5 0 obj
+<< /Length 6 0 R /Filter /FlateDecode >>
+stream
+x⁄uèA¬0Ô}≈æ¿r;∂_Äƒû¿	µ.|ß≠Ñ†EQk◊;vòò≠Ä˚˘î∑#Œy´ÉÁ}+.'8Ui“vﬁÅbN&\≤;ST ’[#√ú
+ß› a“H1◊Ç;”∏‰ú$s≤êdÀŸˇú≈6œ1£ÜávE8ﬂä	Uç-=©°ùù œñéŸﬂtv4ŒJôπÆ$-jKèK,§›ì˝-îL\
+endstream
+endobj
+6 0 obj
+169
+endobj
+27 0 obj
+[7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R]
+endobj
+28 0 obj
+<<
+/Type /Page
+/Parent 1 0 R
+/Resources <<
+    /ProcSet [/PDF /Text /ImageC /ImageB]
+    /Font 2 0 R
+    /XObject 3 0 R >>
+/MediaBox [0 0 841.896 595.296]
+/Contents 5 0 R
+/Annots 27 0 R>>
+endobj
+29 0 obj
+<</S /GoTo /D [28 0 R /Fit]
+>>
+endobj
+32 0 obj
+<</S /GoTo /D [28 0 R /FitR 257 372 309 322]
+>>
+endobj
+34 0 obj
+<</S /GoTo /D [28 0 R /FitR 246 339 271 326]
+>>
+endobj
+36 0 obj
+<</S /GoTo /D [28 0 R /FitR 246 344 271 330]
+>>
+endobj
+38 0 obj
+<</S /GoTo /D [28 0 R /FitR 246 348 271 334]
+>>
+endobj
+40 0 obj
+<</S /GoTo /D [28 0 R /FitR 296 339 322 326]
+>>
+endobj
+42 0 obj
+<</S /GoTo /D [28 0 R /FitR 296 344 322 330]
+>>
+endobj
+44 0 obj
+<</S /GoTo /D [28 0 R /FitR 296 348 322 334]
+>>
+endobj
+46 0 obj
+<</S /GoTo /D [28 0 R /FitR 227 358 265 330]
+>>
+endobj
+48 0 obj
+<</S /GoTo /D [28 0 R /FitR 289 359 315 345]
+>>
+endobj
+50 0 obj
+<</S /GoTo /D [28 0 R /FitR 289 355 315 342]
+>>
+endobj
+52 0 obj
+<</S /GoTo /D [28 0 R /FitR 261 349 272 333]
+>>
+endobj
+54 0 obj
+<</S /GoTo /D [28 0 R /FitR 229 335 267 307]
+>>
+endobj
+56 0 obj
+<</S /GoTo /D [28 0 R /FitR 291 358 349 330]
+>>
+endobj
+58 0 obj
+<</S /GoTo /D [28 0 R /FitR 289 363 315 349]
+>>
+endobj
+60 0 obj
+<</S /GoTo /D [28 0 R /FitR 277 343 303 310]
+>>
+endobj
+62 0 obj
+<</S /GoTo /D [28 0 R /FitR 294 349 304 334]
+>>
+endobj
+64 0 obj
+<</S /GoTo /D [28 0 R /FitR 263 343 289 310]
+>>
+endobj
+66 0 obj
+<</S /GoTo /D [28 0 R /FitR 289 335 347 307]
+>>
+endobj
+68 0 obj
+<</S /GoTo /D [28 0 R /FitR 276 365 303 328]
+>>
+endobj
+70 0 obj
+<</S /GoTo /D [28 0 R /FitR 262 365 291 330]
+>>
+endobj
+72 0 obj
+<< /BaseFont /Helvetica
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+73 0 obj
+<< /BaseFont /Helvetica-Oblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+74 0 obj
+<< /BaseFont /Helvetica-Bold
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+75 0 obj
+<< /BaseFont /Helvetica-BoldOblique
+   /Type /Font
+   /Subtype /Type1
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+    /KicadFont 72 0 R
+    /KicadFontI 73 0 R
+    /KicadFontB 74 0 R
+    /KicadFontBI 75 0 R
+>>
+endobj
+3 0 obj
+<<
+>>
+endobj
+7 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [270.621 335.07 296.416 359.873]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = J1"],
+["Value = 87832-0411"],
+["Footprint = 878320411"],
+["Datasheet = https://www.molex.com/pdm_docs/sd/878320411_sd.pdf", "https://www.molex.com/pdm_docs/sd/878320411_sd.pdf"],
+["Description = 2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, Lead-Free, 4 Circuits, 0.76m Gold \\u0028Au\\u0029 Plating, with Locking Window, without Pick-and-Place Cap, without PCB Locator, Tube"],
+["Height = 7.8"],
+["Mouser Part Number = 538-87832-0411"],
+["Mouser Price/Stock = https://www.mouser.co.uk/ProductDetail/Molex/87832-0411?qs=kNSQ05%252BLZoARVxrc1s973A%3D%3D", "https://www.mouser.co.uk/ProductDetail/Molex/87832-0411?qs=kNSQ05%252BLZoARVxrc1s973A%3D%3D"],
+["Manufacturer_Name = Molex"],
+["Manufacturer_Part_Number = 87832-0411"],
+]\);) >>
+>>
+endobj
+8 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [257.244 331.263 264.331 334.92]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C9"],
+["Value = 1 uF / 35 V"],
+["Footprint = CAPC1608X90N_1uF"],
+["Datasheet = https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf", "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"],
+["Description = Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"],
+["Height = 0.9"],
+["Manufacturer_Name = TAIYO YUDEN"],
+["Manufacturer_Part_Number = MMJCG168CB7105KRPA18"],
+]\);) >>
+>>
+endobj
+9 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [257.244 335.675 264.331 339.332]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C8"],
+["Value = 100 nF / 35 V"],
+["Footprint = CAPC1608X90N_1uF"],
+["Description = Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"],
+["Height = 0.8"],
+["Mouser Part Number = 963-MJCG168BB7104M"],
+["Mouser Price/Stock = https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D", "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"],
+["Manufacturer_Name =  TAIYO YUDEN"],
+["Manufacturer_Part_Number = MMJCG168BB7104MTPA01"],
+]\);) >>
+>>
+endobj
+10 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [257.258 339.767 264.317 343.424]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C7"],
+["Value = 10 nF / 100 V"],
+["Footprint = CAPC1608X90N_001uF"],
+["Description = Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"],
+["Height = 0.9"],
+["Mouser Part Number = 810-CGA3EANP02A103JC"],
+["Mouser Price/Stock = https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D", "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"],
+["Manufacturer_Name = TDK"],
+["Manufacturer_Part_Number = CGA3EANP02A103J080AC"],
+]\);) >>
+>>
+endobj
+11 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [303.596 331.308 310.682 334.965]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C6"],
+["Value = 1 uF / 35 V"],
+["Footprint = CAPC1608X90N_1uF"],
+["Datasheet = https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf", "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"],
+["Description = Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"],
+["Height = 0.9"],
+["Manufacturer_Name = TAIYO YUDEN"],
+["Manufacturer_Part_Number = MMJCG168CB7105KRPA18"],
+]\);) >>
+>>
+endobj
+12 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [303.596 335.515 310.682 339.172]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C5"],
+["Value = 100 nF / 35 V"],
+["Footprint = CAPC1608X90N_1uF"],
+["Description = Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"],
+["Height = 0.8"],
+["Mouser Part Number = 963-MJCG168BB7104M"],
+["Mouser Price/Stock = https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D", "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"],
+["Manufacturer_Name =  TAIYO YUDEN"],
+["Manufacturer_Part_Number = MMJCG168BB7104MTPA01"],
+]\);) >>
+>>
+endobj
+13 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [303.61 339.619 310.668 343.276]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C4"],
+["Value = 10 nF / 100 V"],
+["Footprint = CAPC1608X90N_001uF"],
+["Description = Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"],
+["Height = 0.9"],
+["Mouser Part Number = 810-CGA3EANP02A103JC"],
+["Mouser Price/Stock = https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D", "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"],
+["Manufacturer_Name = TDK"],
+["Manufacturer_Part_Number = CGA3EANP02A103J080AC"],
+]\);) >>
+>>
+endobj
+14 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [237.151 342.952 255.808 351.948]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = H1"],
+["Value = MountingHole"],
+["Footprint = CastellatedHole"],
+["Description = Mounting Hole without connection"],
+]\);) >>
+>>
+endobj
+15 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [296.441 350.715 303.528 354.372]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C2"],
+["Value = 100 nF / 35 V"],
+["Footprint = CAPC1608X90N_1uF"],
+["Description = Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"],
+["Height = 0.8"],
+["Mouser Part Number = 963-MJCG168BB7104M"],
+["Mouser Price/Stock = https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D", "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"],
+["Manufacturer_Name =  TAIYO YUDEN"],
+["Manufacturer_Part_Number = MMJCG168BB7104MTPA01"],
+]\);) >>
+>>
+endobj
+16 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [296.441 346.916 303.528 350.573]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C3"],
+["Value = 1 uF / 35 V"],
+["Footprint = CAPC1608X90N_1uF"],
+["Datasheet = https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf", "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"],
+["Description = Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"],
+["Height = 0.9"],
+["Manufacturer_Name = TAIYO YUDEN"],
+["Manufacturer_Part_Number = MMJCG168CB7105KRPA18"],
+]\);) >>
+>>
+endobj
+17 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [265.904 341.397 268.03 345.507]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = R2"],
+["Value = 320 Ohm"],
+["Footprint = R_0201_0603Metric"],
+["Description = Resistor"],
+]\);) >>
+>>
+endobj
+18 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [239.301 319.937 257.958 328.932]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = H2"],
+["Value = MountingHole"],
+["Footprint = CastellatedHole"],
+["Description = Mounting Hole without connection"],
+]\);) >>
+>>
+endobj
+19 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [311.137 342.808 329.793 351.803]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = H3"],
+["Value = MountingHole"],
+["Footprint = Castelated_Hold_Right"],
+["Description = Mounting Hole without connection"],
+]\);) >>
+>>
+endobj
+20 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [296.455 354.552 303.513 358.209]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = C1"],
+["Value = 10 nF / 100 V"],
+["Footprint = CAPC1608X90N_001uF"],
+["Description = Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"],
+["Height = 0.9"],
+["Mouser Part Number = 810-CGA3EANP02A103JC"],
+["Mouser Price/Stock = https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D", "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"],
+["Manufacturer_Name = TDK"],
+["Manufacturer_Part_Number = CGA3EANP02A103J080AC"],
+]\);) >>
+>>
+endobj
+21 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [283.552 321.874 296.591 334.913]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = J2"],
+["Value = CONMHF4-SMD-G-T"],
+["Footprint = CONMHF4SMDGT"],
+["Datasheet = https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"],
+["Description = Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"],
+["Height = 0.6"],
+["Mouser Part Number = N/A"],
+["Mouser Price/Stock = https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"],
+["Manufacturer_Name = TE Connectivity"],
+["Manufacturer_Part_Number = CONMHF4-SMD-G-T"],
+]\);) >>
+>>
+endobj
+22 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [298.688 341.397 300.814 345.507]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = R1"],
+["Value = 320 Ohm"],
+["Footprint = R_0201_0603Metric"],
+["Description = Resistor"],
+]\);) >>
+>>
+endobj
+23 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [270.369 321.874 283.408 334.913]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = J3"],
+["Value = CONMHF4-SMD-G-T"],
+["Footprint = CONMHF4SMDGT"],
+["Datasheet = https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"],
+["Description = Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"],
+["Height = 0.6"],
+["Mouser Part Number = N/A"],
+["Mouser Price/Stock = https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"],
+["Manufacturer_Name = TE Connectivity"],
+["Manufacturer_Part_Number = CONMHF4-SMD-G-T"],
+]\);) >>
+>>
+endobj
+24 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [309.063 319.738 327.719 328.734]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = H4"],
+["Value = MountingHole"],
+["Footprint = Castelated_Hold_Right"],
+["Description = Mounting Hole without connection"],
+]\);) >>
+>>
+endobj
+25 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [283.596 337.588 296.777 352.116]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = U1"],
+["Value = MICROFC-30035-SMT-TR1"],
+["Footprint = XDCR_MICROFC-30035-SMT-TR1"],
+["MF = ON Semiconductor"],
+["MAXIMUM_PACKAGE_HEIGHT = 0.70 mm"],
+["Package = SMD-4 ON Semiconductor"],
+["Price = None"],
+["Check_prices = https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda", "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"],
+["STANDARD = Manufacturer Recommendations"],
+["PARTREV = Issue O"],
+["SnapEDA_Link = https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap", "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"],
+["MP = MICROFC-30035-SMT-TR1"],
+["Purchase-URL = https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr", "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"],
+["Description_1 = 
+Photodiode 420nm 600ps - 4-SMD, No Lead
+"],
+["Availability = In Stock"],
+["MANUFACTURER = On Semiconductor"],
+]\);) >>
+>>
+endobj
+26 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/Rect [270.176 338.906 284.704 352.087]
+/Border [16 16 0]
+/A << /Type /Action /S /JavaScript /JS (ShM\([
+["Reference designator = U2"],
+["Value = MICROFC-30035-SMT-TR1"],
+["Footprint = XDCR_MICROFC-30035-SMT-TR1"],
+["MF = ON Semiconductor"],
+["MAXIMUM_PACKAGE_HEIGHT = 0.70 mm"],
+["Package = SMD-4 ON Semiconductor"],
+["Price = None"],
+["Check_prices = https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda", "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"],
+["STANDARD = Manufacturer Recommendations"],
+["PARTREV = Issue O"],
+["SnapEDA_Link = https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap", "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"],
+["MP = MICROFC-30035-SMT-TR1"],
+["Purchase-URL = https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr", "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"],
+["Description_1 = 
+Photodiode 420nm 600ps - 4-SMD, No Lead
+"],
+["Availability = In Stock"],
+["MANUFACTURER = On Semiconductor"],
+]\);) >>
+>>
+endobj
+4 0 obj
+<< /JavaScript
+ << /Names
+    [ (JSInit) << /Type /Action /S /JavaScript /JS (
+function ShM\(aEntries\) {
+    var aParams = [];
+    for \(var i in aEntries\) {
+        aParams.push\({
+            cName: aEntries[i][0],
+            cReturn: aEntries[i][1]
+        }\)
+    }
+
+    var cChoice = app.popUpMenuEx.apply\(app, aParams\);
+    if \(cChoice != null && cChoice.substring\(0, 1\) == '#'\) this.pageNum = parseInt\(cChoice.slice\(1\)\);
+    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'http'\) app.launchURL\(cChoice\);
+}
+) >> ]
+ >>
+>>
+endobj
+1 0 obj
+<<
+/Type /Pages
+/Kids [
+28 0 R
+]
+/Count 1
+>>
+endobj
+76 0 obj
+<<
+/Producer (KiCad PDF)
+/CreationDate (D:20240814143124)
+/Creator (PCBNEW)
+/Title (PUMA_PCB_REV2-Edge_Cuts.pdf)
+>>
+endobj
+59 0 obj
+<<
+/Title (C1)
+/Parent 31 0 R
+/Next 49 0 R
+/A 58 0 R
+>>
+endobj
+49 0 obj
+<<
+/Title (C2)
+/Parent 31 0 R
+/Next 51 0 R
+/Prev 59 0 R
+/A 48 0 R
+>>
+endobj
+51 0 obj
+<<
+/Title (C3)
+/Parent 31 0 R
+/Next 45 0 R
+/Prev 49 0 R
+/A 50 0 R
+>>
+endobj
+45 0 obj
+<<
+/Title (C4)
+/Parent 31 0 R
+/Next 43 0 R
+/Prev 51 0 R
+/A 44 0 R
+>>
+endobj
+43 0 obj
+<<
+/Title (C5)
+/Parent 31 0 R
+/Next 41 0 R
+/Prev 45 0 R
+/A 42 0 R
+>>
+endobj
+41 0 obj
+<<
+/Title (C6)
+/Parent 31 0 R
+/Next 39 0 R
+/Prev 43 0 R
+/A 40 0 R
+>>
+endobj
+39 0 obj
+<<
+/Title (C7)
+/Parent 31 0 R
+/Next 37 0 R
+/Prev 41 0 R
+/A 38 0 R
+>>
+endobj
+37 0 obj
+<<
+/Title (C8)
+/Parent 31 0 R
+/Next 35 0 R
+/Prev 39 0 R
+/A 36 0 R
+>>
+endobj
+35 0 obj
+<<
+/Title (C9)
+/Parent 31 0 R
+/Next 47 0 R
+/Prev 37 0 R
+/A 34 0 R
+>>
+endobj
+47 0 obj
+<<
+/Title (H1)
+/Parent 31 0 R
+/Next 55 0 R
+/Prev 35 0 R
+/A 46 0 R
+>>
+endobj
+55 0 obj
+<<
+/Title (H2)
+/Parent 31 0 R
+/Next 57 0 R
+/Prev 47 0 R
+/A 54 0 R
+>>
+endobj
+57 0 obj
+<<
+/Title (H3)
+/Parent 31 0 R
+/Next 67 0 R
+/Prev 55 0 R
+/A 56 0 R
+>>
+endobj
+67 0 obj
+<<
+/Title (H4)
+/Parent 31 0 R
+/Next 33 0 R
+/Prev 57 0 R
+/A 66 0 R
+>>
+endobj
+33 0 obj
+<<
+/Title (J1)
+/Parent 31 0 R
+/Next 61 0 R
+/Prev 67 0 R
+/A 32 0 R
+>>
+endobj
+61 0 obj
+<<
+/Title (J2)
+/Parent 31 0 R
+/Next 65 0 R
+/Prev 33 0 R
+/A 60 0 R
+>>
+endobj
+65 0 obj
+<<
+/Title (J3)
+/Parent 31 0 R
+/Next 63 0 R
+/Prev 61 0 R
+/A 64 0 R
+>>
+endobj
+63 0 obj
+<<
+/Title (R1)
+/Parent 31 0 R
+/Next 53 0 R
+/Prev 65 0 R
+/A 62 0 R
+>>
+endobj
+53 0 obj
+<<
+/Title (R2)
+/Parent 31 0 R
+/Next 69 0 R
+/Prev 63 0 R
+/A 52 0 R
+>>
+endobj
+69 0 obj
+<<
+/Title (U1)
+/Parent 31 0 R
+/Next 71 0 R
+/Prev 53 0 R
+/A 68 0 R
+>>
+endobj
+71 0 obj
+<<
+/Title (U2)
+/Parent 31 0 R
+/Prev 69 0 R
+/A 70 0 R
+>>
+endobj
+31 0 obj
+<<
+/Title (Footprints)
+/Parent 30 0 R
+/Count -20
+/First 59 0 R
+/Last 71 0 R
+/A 29 0 R
+>>
+endobj
+30 0 obj
+<<
+/Title (Page 1)
+/Parent 77 0 R
+/Count -1
+/First 31 0 R
+/Last 31 0 R
+/A 29 0 R
+>>
+endobj
+77 0 obj
+<< /Type /Outlines
+   /Count 22
+   /First 30 0 R
+   /Last 30 0 R
+>>
+endobj
+78 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Version /1.5
+/PageMode /UseOutlines
+/Outlines 77 0 R
+/Names 4 0 R
+/PageLayout /SinglePage
+>>
+endobj
+xref
+0 79
+0000000000 65535 f 
+0000017848 00000 n 
+0000002416 00000 n 
+0000002529 00000 n 
+0000017279 00000 n 
+0000000015 00000 n 
+0000000258 00000 n 
+0000002550 00000 n 
+0000003498 00000 n 
+0000004099 00000 n 
+0000004846 00000 n 
+0000005573 00000 n 
+0000006176 00000 n 
+0000006924 00000 n 
+0000007650 00000 n 
+0000007956 00000 n 
+0000008704 00000 n 
+0000009307 00000 n 
+0000009585 00000 n 
+0000009891 00000 n 
+0000010203 00000 n 
+0000010930 00000 n 
+0000012470 00000 n 
+0000012749 00000 n 
+0000014289 00000 n 
+0000014601 00000 n 
+0000015940 00000 n 
+0000000277 00000 n 
+0000000432 00000 n 
+0000000636 00000 n 
+0000019819 00000 n 
+0000019714 00000 n 
+0000000683 00000 n 
+0000019132 00000 n 
+0000000747 00000 n 
+0000018707 00000 n 
+0000000811 00000 n 
+0000018622 00000 n 
+0000000875 00000 n 
+0000018537 00000 n 
+0000000939 00000 n 
+0000018452 00000 n 
+0000001003 00000 n 
+0000018367 00000 n 
+0000001067 00000 n 
+0000018282 00000 n 
+0000001131 00000 n 
+0000018792 00000 n 
+0000001195 00000 n 
+0000018112 00000 n 
+0000001259 00000 n 
+0000018197 00000 n 
+0000001323 00000 n 
+0000019472 00000 n 
+0000001387 00000 n 
+0000018877 00000 n 
+0000001451 00000 n 
+0000018962 00000 n 
+0000001515 00000 n 
+0000018040 00000 n 
+0000001579 00000 n 
+0000019217 00000 n 
+0000001643 00000 n 
+0000019387 00000 n 
+0000001707 00000 n 
+0000019302 00000 n 
+0000001771 00000 n 
+0000019047 00000 n 
+0000001835 00000 n 
+0000019557 00000 n 
+0000001899 00000 n 
+0000019642 00000 n 
+0000001963 00000 n 
+0000002070 00000 n 
+0000002185 00000 n 
+0000002297 00000 n 
+0000017908 00000 n 
+0000019919 00000 n 
+0000020003 00000 n 
+trailer
+<< /Size 79 /Root 78 0 R /Info 76 0 R >>
+startxref
+20144
+%%EOF

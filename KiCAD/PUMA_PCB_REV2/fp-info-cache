@@ -1,4 +1,4 @@
-23382133594174832
+23382133599224844
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63915,7 +63915,7 @@ Castelated_Hold_Right
 
 0
 1
-1
+0
 MountingHole
 CastellatedHole
 
@@ -88228,15 +88228,15 @@ Capacitor
 2
 2
 SiPM_Onsemi
-CAPC1608X90N_1uF
-MMJCG168CB7105KRPA18*
+CAPC1608X90N_001uF
+CGA3 [EIA CC0603] Thickness 0.8
 Capacitor
 0
 2
 2
 SiPM_Onsemi
-CAPC1608X90N_001uF
-CGA3 [EIA CC0603] Thickness 0.8
+CAPC1608X90N_1uF
+MMJCG168CB7105KRPA18*
 Capacitor
 0
 2
