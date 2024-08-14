@@ -2670,7 +2670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "320 Ohm"
 			(at 64.77 91.4399 0)
 			(effects
 				(font
@@ -6220,7 +6220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "320 Ohm"
 			(at 154.94 88.8999 0)
 			(effects
 				(font
