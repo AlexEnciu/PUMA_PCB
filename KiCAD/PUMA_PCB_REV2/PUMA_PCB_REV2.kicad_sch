@@ -386,49 +386,50 @@
 				)
 			)
 		)
-		(symbol "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T"
+		(symbol "COAX_MHF1:CONMHF1-SMD-G-T"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 26.67 17.78 0)
+				(at 8.89 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "CONMHF4-SMD-G-T"
-				(at 26.67 15.24 0)
+			(property "Value" "CONMHF1-SMD-G-T"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "CONMHF4SMDGT"
-				(at 26.67 -84.76 0)
+			(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"
-				(at 26.67 -184.76 0)
+			(property "Datasheet" "CONMHF1-SMD-G-T"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -437,70 +438,272 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.6"
-				(at 26.67 -384.76 0)
+			(property "ki_locked" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
-					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "N/A"
-				(at 26.67 -484.76 0)
+			(property "ki_keywords" "CONMHF1-SMD-G-T"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"
-				(at 26.67 -584.76 0)
+			(property "ki_fp_filters" "COAX3_CONMHF1-SMD-G-T_TEC"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "TE Connectivity"
-				(at 26.67 -684.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "CONMHF1-SMD-G-T_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CONMHF4-SMD-G-T"
-				(at 26.67 -784.76 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "CONMHF4-SMD-G-T_1_1"
-				(rectangle
-					(start 5.08 12.7)
-					(end 25.4 -12.7)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 15.24 -17.78 90)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 5.08)
 					(name "SIGNAL"
 						(effects
@@ -517,10 +720,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 30.48 0 180)
+				(pin unspecified line
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "GND_1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -535,10 +738,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 17.78 270)
+				(pin unspecified line
+					(at 0 -5.08 0)
 					(length 5.08)
-					(name "GND_2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -553,10 +756,321 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CONMHF1-SMD-G-T_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
-					(name "GND_3"
+					(name "SIGNAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1686,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 62.23 151.13)
+			(xy 62.23 111.76) (xy 62.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1713,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "11fc93e3-8985-458b-83f4-8eb0c82f307e")
+	)
+	(wire
+		(pts
+			(xy 152.4 148.59) (xy 160.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f60a07c-1d80-48ac-949a-c8deda6c0853")
 	)
 	(wire
 		(pts
@@ -1786,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 149.86) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fb8691-8460-44be-bc70-2ea5d63632be")
+	)
+	(wire
+		(pts
 			(xy 152.4 109.22) (xy 152.4 148.59)
 		)
 		(stroke
@@ -1813,6 +2347,16 @@
 			(type default)
 		)
 		(uuid "887d8cdb-8ad6-423f-9ceb-7db20599ca0f")
+	)
+	(wire
+		(pts
+			(xy 86.36 147.32) (xy 92.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa020876-0f0b-4cec-95b1-e165a02ca9e7")
 	)
 	(wire
 		(pts
@@ -1853,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "af6f443c-6480-4e30-8fcc-86e7548a033a")
+	)
+	(wire
+		(pts
+			(xy 62.23 142.24) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdadf0e1-44b2-4e77-b3b5-2b61bba1d5fb")
 	)
 	(wire
 		(pts
@@ -2024,6 +2578,136 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 80.01 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0390340f-c941-4500-aec3-dc6d96725143")
+		(property "Reference" "#PWR015"
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5b800fe-c23e-49c4-9986-1d122a55a3b8")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 92.71 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089bef9f-97f7-47cd-874c-bf69c49f154a")
+		(property "Reference" "H2"
+			(at 95.25 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 95.25 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 92.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 92.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 26.67 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2157,17 +2841,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 148.59 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 110.49 180.34 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b897d38-b1d3-432d-a60e-8d243da4c57c")
-		(property "Reference" "#PWR019"
-			(at 116.84 154.94 0)
+		(uuid "166392f4-ac0c-4b14-bd7f-c3065b692560")
+		(property "Reference" "H3"
+			(at 113.03 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 113.03 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 110.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,16 +2877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 116.84 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 148.59 0)
+		(property "Datasheet" "~"
+			(at 110.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,31 +2886,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 116.84 148.59 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 110.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "482355f6-e34a-4665-a905-35590d2dad1a")
 		)
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR019")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2291,16 +2973,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 151.13 0)
+		(at 160.02 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ea5d037-91b4-48b9-b475-a142b8285815")
-		(property "Reference" "#PWR020"
-			(at 97.79 157.48 0)
+		(uuid "27f01ea1-9b07-4146-9cab-16ce19c812ec")
+		(property "Reference" "#PWR01"
+			(at 153.67 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2991,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 156.21 0)
+			(at 158.75 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 151.13 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +3008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 151.13 0)
+			(at 160.02 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +3017,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 151.13 0)
+			(at 160.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fe1fcbb-69d8-4438-b92d-8bdee4910bfc")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea5d037-91b4-48b9-b475-a142b8285815")
+		(property "Reference" "#PWR020"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,6 +3240,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 86.36 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db65e9f-357b-4ed4-9422-f03134834fd5")
+		(property "Reference" "#PWR014"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e90cce-b3ea-4510-a2d6-7150dfa506b0")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
 		(at 26.67 124.46 0)
 		(unit 1)
@@ -2516,7 +3330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 35.56 220.65 0)
 			(effects
 				(font
@@ -2635,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 35.56 210.49 0)
 			(effects
 				(font
@@ -2655,7 +3469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
 			(at 26.67 114.3 0)
 			(effects
 				(font
@@ -2664,7 +3478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
+		(property "Height" "0.9"
 			(at 35.56 510.49 0)
 			(effects
 				(font
@@ -2674,7 +3488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "963-MJCG168BB7104M"
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
 			(at 35.56 610.49 0)
 			(effects
 				(font
@@ -2684,7 +3498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
 			(at 35.56 710.49 0)
 			(effects
 				(font
@@ -2694,7 +3508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " TAIYO YUDEN"
+		(property "Manufacturer_Name" "TDK"
 			(at 35.56 810.49 0)
 			(effects
 				(font
@@ -2704,7 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
 			(at 35.56 910.49 0)
 			(effects
 				(font
@@ -2731,16 +3545,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 113.03 180.34 0)
+		(at 129.54 180.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63cba1e8-54da-4a9c-a7b3-0b0dfe194fb5")
-		(property "Reference" "H3"
-			(at 115.57 179.0699 0)
+		(uuid "4fb2d50c-6cc8-4782-9ca3-e1c925e617d0")
+		(property "Reference" "H4"
+			(at 132.08 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +3563,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 115.57 181.6099 0)
+			(at 132.08 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,8 +3571,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:Castelated_Hold_Right"
-			(at 113.03 180.34 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +3590,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 113.03 180.34 0)
+			(at 129.54 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,257 +3601,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T")
-		(at 80.01 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66642027-7f8d-4e4a-a288-9aee579d718d")
-		(property "Reference" "J2"
-			(at 78.994 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CONMHF4-SMD-G-T"
-			(at 79.756 131.572 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SiPM_Onsemi:CONMHF4SMDGT"
-			(at -4.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"
-			(at -104.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"
-			(at 80.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at -304.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at -404.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"
-			(at -504.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at -604.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CONMHF4-SMD-G-T"
-			(at -704.75 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "77fdcb2b-e612-4438-9079-5736872ff4cd")
-		)
-		(pin "1"
-			(uuid "ef962118-28f9-4849-b21f-d2b9952fb6a8")
-		)
-		(pin "2"
-			(uuid "f3363f09-a325-4c15-a09d-a30a50cb75d5")
-		)
-		(pin "4"
-			(uuid "61ce1362-0064-49a8-8b54-9dde68314fa1")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CONMHF4-SMD-G-T:CONMHF4-SMD-G-T")
-		(at 134.62 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6840ebd6-8d79-4b5c-8edb-eb0c120d83a4")
-		(property "Reference" "J3"
-			(at 133.35 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CONMHF4-SMD-G-T"
-			(at 132.334 130.302 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SiPM_Onsemi:CONMHF4SMDGT"
-			(at 219.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf"
-			(at 319.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.6"
-			(at 519.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 619.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D"
-			(at 719.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 819.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CONMHF4-SMD-G-T"
-			(at 919.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cd5917a4-6a43-4d63-98a6-6cf23ed354a4")
-		)
-		(pin "1"
-			(uuid "eedd267a-260c-4b4f-9cc6-cbb1443009fb")
-		)
-		(pin "2"
-			(uuid "c0202b86-be7d-4e2f-ac20-efc749567c51")
-		)
-		(pin "4"
-			(uuid "3b656aa2-2548-4a51-b00f-fe50a274bb7b")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3135,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 185.42 209.22 0)
 			(effects
 				(font
@@ -3297,139 +3861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b3f5ab3-ab1b-4d85-adef-4e58890ed6ea")
-		(property "Reference" "#PWR017"
-			(at 80.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "601fac85-56dd-417f-bd39-52f4fa07b24a")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84b61117-a39b-4c2d-a75d-2275351ef8c4")
-		(property "Reference" "#PWR021"
-			(at 86.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f625888-c4d6-4fd0-a83e-e3284e163727")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 73.66 180.34 0)
 		(unit 1)
@@ -3457,7 +3888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:CastellatedHole"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 73.66 180.34 0)
 			(effects
 				(font
@@ -3519,7 +3950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 185.42 188.9 0)
 			(effects
 				(font
@@ -3638,7 +4069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 52.07 171.12 0)
 			(effects
 				(font
@@ -3658,7 +4089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
 			(at 43.18 74.93 0)
 			(effects
 				(font
@@ -3667,7 +4098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
+		(property "Height" "0.9"
 			(at 52.07 471.12 0)
 			(effects
 				(font
@@ -3677,7 +4108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "963-MJCG168BB7104M"
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
 			(at 52.07 571.12 0)
 			(effects
 				(font
@@ -3687,7 +4118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
 			(at 52.07 671.12 0)
 			(effects
 				(font
@@ -3697,7 +4128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " TAIYO YUDEN"
+		(property "Manufacturer_Name" "TDK"
 			(at 52.07 771.12 0)
 			(effects
 				(font
@@ -3707,7 +4138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
 			(at 52.07 871.12 0)
 			(effects
 				(font
@@ -3727,6 +4158,72 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0f5d62-5e17-4d34-bde2-72669f3fe307")
+		(property "Reference" "#PWR013"
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aadd2672-0ee2-4d5f-b814-7834589c9f19")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3934,6 +4431,84 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COAX_MHF1:CONMHF1-SMD-G-T")
+		(at 160.02 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a6e6d2-1d9d-49fc-b83c-cd9020711d6b")
+		(property "Reference" "J2"
+			(at 173.99 151.1299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-G-T"
+			(at 173.99 153.6699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CONMHF1-SMD-G-T"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15b2f6c7-9856-49b0-afb6-86e07d551c4f")
+		)
+		(pin "3"
+			(uuid "2a695487-2f64-438e-b543-032bee5c0d71")
+		)
+		(pin "1"
+			(uuid "5e5b1f89-0416-49a1-bc4f-4dd69ac0478f")
+		)
+		(pin "4"
+			(uuid "24c1063e-a906-4a5d-b7eb-24fc6b6c7d79")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4348,70 +4923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 133.35 180.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9a40ea0-72c5-45f9-ab9a-756dc4be854c")
-		(property "Reference" "H4"
-			(at 135.89 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 135.89 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:Castelated_Hold_Right"
-			(at 133.35 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 133.35 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
 		(at 43.18 64.77 0)
 		(unit 1)
@@ -4437,7 +4948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 52.07 160.96 0)
 			(effects
 				(font
@@ -4526,72 +5037,6 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5a75f7b-31fb-48cf-bc90-bba68f9c6ffe")
-		(property "Reference" "#PWR018"
-			(at 134.62 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78051977-a423-4d64-9a50-5d78698c9993")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4858,6 +5303,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7be390c-8a91-44d9-9735-b99ce04b8747")
+		(property "Reference" "#PWR012"
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66df9c98-d3be-4346-9483-3bd5df1fa332")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
 		(at 176.53 102.87 0)
 		(unit 1)
@@ -4882,7 +5393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 185.42 199.06 0)
 			(effects
 				(font
@@ -4902,7 +5413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 0.1uF X7R 0603 20% Medical"
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
 			(at 176.53 102.87 0)
 			(effects
 				(font
@@ -4911,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
+		(property "Height" "0.9"
 			(at 185.42 499.06 0)
 			(effects
 				(font
@@ -4921,7 +5432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "963-MJCG168BB7104M"
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
 			(at 185.42 599.06 0)
 			(effects
 				(font
@@ -4931,7 +5442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.de/ProductDetail/TAIYO-YUDEN/MMJCG168BB7104MTPA01?qs=tlsG%2FOw5FFi%252BNb4uAGqRXw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
 			(at 185.42 699.06 0)
 			(effects
 				(font
@@ -4941,7 +5452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " TAIYO YUDEN"
+		(property "Manufacturer_Name" "TDK"
 			(at 185.42 799.06 0)
 			(effects
 				(font
@@ -4951,7 +5462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MMJCG168BB7104MTPA01"
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
 			(at 185.42 899.06 0)
 			(effects
 				(font
@@ -4971,70 +5482,6 @@
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 93.98 180.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e083bc53-44bc-4bcf-b6d6-9d0ec54e0217")
-		(property "Reference" "H2"
-			(at 96.52 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 96.52 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:CastellatedHole"
-			(at 93.98 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 93.98 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5067,7 +5514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_001uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 35.56 200.33 0)
 			(effects
 				(font
@@ -5162,73 +5609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed2b927f-d8c7-4ff8-aebd-2a6ffaca93f9")
-		(property "Reference" "#PWR022"
-			(at 128.27 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e02a2ef-d273-4b69-ae8a-8ff0611a0c1f")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 152.4 66.04 0)
 		(unit 1)
@@ -5298,6 +5678,84 @@
 		)
 	)
 	(symbol
+		(lib_id "COAX_MHF1:CONMHF1-SMD-G-T")
+		(at 92.71 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7d01e4f-c874-45c1-88a0-af767aaac9eb")
+		(property "Reference" "J4"
+			(at 106.68 144.7799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-G-T"
+			(at 106.68 147.3199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CONMHF1-SMD-G-T"
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a09709b-3e55-4fb4-b0fb-d6f7e3c32e47")
+		)
+		(pin "3"
+			(uuid "33d345f9-b9a7-46f1-92a1-3c557c0c7345")
+		)
+		(pin "1"
+			(uuid "a99af9c5-37be-4020-8679-d707bac970e3")
+		)
+		(pin "4"
+			(uuid "ad618cc7-702b-4fbe-b4f6-4d95510b160d")
+		)
+		(instances
+			(project "PUMA_PCB_REV2"
+				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
 		(at 43.18 85.09 0)
 		(unit 1)
@@ -5322,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiPM_Onsemi:CAPC1608X90N_1uF"
+		(property "Footprint" "CAPC1608X90N"
 			(at 52.07 181.28 0)
 			(effects
 				(font
