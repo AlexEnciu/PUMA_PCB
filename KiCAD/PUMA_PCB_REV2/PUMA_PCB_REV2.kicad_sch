@@ -3102,7 +3102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41564dac-a867-4562-b3ed-deae5aef0064")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 33.02 118.872 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "417e49ad-67d9-4d7f-9950-b1020049ba8b")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 33.02 108.458 0)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b233997-cc11-4bfa-a428-d93a9d88fbe2")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 182.88 107.442 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C9")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ab7f839-db30-4be7-bd9c-aa34a441062f")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 182.88 85.09 0)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a6e6d2-1d9d-49fc-b83c-cd9020711d6b")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 173.99 151.1299 0)
 			(effects
 				(font
@@ -4110,7 +4110,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d82d1473-5272-4487-83b7-e139762b59a2")
-		(property "Reference" "C8"
+		(property "Reference" "C5"
 			(at 182.88 97.028 0)
 			(effects
 				(font
@@ -4963,7 +4963,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C8")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4979,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57edc52-b5d9-47e3-b830-61099425e73b")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 33.02 97.79 0)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5169,7 +5169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d01e4f-c874-45c1-88a0-af767aaac9eb")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 106.68 144.7799 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 		(instances
 			(project "PUMA_PCB_REV2"
 				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)

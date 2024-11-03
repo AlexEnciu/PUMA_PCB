@@ -301,7 +301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
+		(property "Footprint" "SiPM_Onsemi:COAX3_CONMHF1-SMD-G-T_TEC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -584,7 +584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "878320411"
+		(property "Footprint" "SiPM_Onsemi:878320411"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1274,7 +1274,7 @@
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2e0e7cc8-f9f9-4936-a9c0-56072d602d88")
+			(uuid "6cf001ff-8982-470c-a480-13847880ec57")
 			(effects
 				(font
 					(size 1 1)
@@ -1286,7 +1286,7 @@
 			(at 0 3.5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b1aee5a-646b-47f1-805c-810760b00af0")
+			(uuid "f62d007d-5940-4278-9276-82dcbac184ad")
 			(effects
 				(font
 					(size 1 1)
@@ -1344,7 +1344,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "f442d5f0-71a4-4c52-94be-df299a34200d")
+			(uuid "892a365b-3f91-4089-afa7-4724eb11cdf1")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1355,12 +1355,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "162be817-5e32-4397-b523-5855cdc6e0fb")
+			(uuid "8fd6d62b-3388-4a0e-bcf2-d1cd043355cc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "389d77f6-9484-42dd-9180-5c76711eea46")
+			(uuid "2aa5d57b-29b2-4772-a5a7-0cd5b3bc1e32")
 			(effects
 				(font
 					(size 1 1)
@@ -1375,7 +1375,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
-			(uuid "b18ed60a-9972-4b4d-913f-983ae898c199")
+			(uuid "7306e438-be30-43b9-a6ed-b2170b7b3cd5")
 		)
 	)
 	(footprint "SiPM_Onsemi:COAX3_CONMHF1-SMD-G-T_TEC"
@@ -1407,7 +1407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
+		(property "Footprint" "SiPM_Onsemi:COAX3_CONMHF1-SMD-G-T_TEC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

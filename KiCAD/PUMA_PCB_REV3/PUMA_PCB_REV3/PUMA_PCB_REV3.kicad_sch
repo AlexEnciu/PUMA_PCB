@@ -2,13 +2,8 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "31b68516-5cda-4947-89a4-f2f721ffe751")
+	(uuid "2c2de6dc-06e6-45ed-b631-b08562fd2030")
 	(paper "A4")
-	(title_block
-		(title "PUMA_PCB_REV2")
-		(date "2024-08-14")
-		(rev "2.0")
-	)
 	(lib_symbols
 		(symbol "87832-0411:87832-0411"
 			(exclude_from_sim no)
@@ -2145,296 +2140,274 @@
 		)
 	)
 	(junction
-		(at 62.23 95.25)
+		(at 49.53 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43516a3b-d936-4d6b-9b1b-526b598eea2e")
+		(uuid "115a784e-3ca1-4445-a842-5d4292347d67")
 	)
 	(junction
-		(at 176.53 102.87)
+		(at 162.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "456be609-9d48-46b9-938d-e5bc37a0bd1a")
+		(uuid "3af1adb4-00f9-4412-82e6-7907c42b76be")
 	)
 	(junction
-		(at 39.37 114.3)
+		(at 186.69 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77ae1dca-4249-4be7-80d2-d953ab9d8a36")
+		(uuid "5becc1cd-7a31-488f-9800-d504989de86c")
 	)
 	(junction
-		(at 39.37 104.14)
+		(at 49.53 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6a99032-564d-48fa-8871-23718552847b")
+		(uuid "9295a969-022c-4232-9530-faa88583f67a")
 	)
 	(junction
-		(at 152.4 88.9)
+		(at 72.39 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab449b76-8289-432e-9f72-138b9b5eac56")
+		(uuid "c055b6a8-73c7-4797-b3bd-62645d468665")
 	)
 	(junction
-		(at 176.53 92.71)
+		(at 186.69 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce97042d-1b81-4f2c-8b9e-58a056fdaa6b")
+		(uuid "c304fe54-fbc6-4583-8df8-5848da5ed035")
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 62.23 142.24)
+			(xy 162.56 138.43) (xy 170.18 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00d32130-7876-4dbd-b582-658ac2719665")
+		(uuid "02144316-5873-4aa0-b64c-8be38cd4cde7")
 	)
 	(wire
 		(pts
-			(xy 176.53 113.03) (xy 176.53 102.87)
+			(xy 49.53 85.09) (xy 72.39 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "017a4e58-079c-4fee-b792-acc045c5cff4")
+		(uuid "079a08f6-6054-4484-8d28-7d31028b7f10")
 	)
 	(wire
 		(pts
-			(xy 62.23 95.25) (xy 62.23 96.52)
+			(xy 162.56 59.69) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11fc93e3-8985-458b-83f4-8eb0c82f307e")
+		(uuid "107551da-b3f3-4c73-abc8-41f502047336")
 	)
 	(wire
 		(pts
-			(xy 152.4 148.59) (xy 160.02 148.59)
+			(xy 90.17 139.7) (xy 102.87 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f60a07c-1d80-48ac-949a-c8deda6c0853")
+		(uuid "11bed8ed-f1c5-475b-aae0-503200c9fb98")
 	)
 	(wire
 		(pts
-			(xy 175.26 87.63) (xy 175.26 88.9)
+			(xy 161.29 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "226ed786-a67f-42ff-8bf0-f3250344c38c")
+		(uuid "1220ef18-fd12-439f-adbd-bb52474c2d19")
 	)
 	(wire
 		(pts
-			(xy 39.37 104.14) (xy 39.37 114.3)
+			(xy 72.39 132.08) (xy 102.87 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35a77447-64f2-4f1b-b811-173d1a014e95")
+		(uuid "33ec4db6-4f1c-4e33-9434-e09046137068")
 	)
 	(wire
 		(pts
-			(xy 39.37 104.14) (xy 39.37 95.25)
+			(xy 49.53 104.14) (xy 49.53 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "366bb141-f1ac-4fc2-8114-38c7b27aa8fb")
+		(uuid "3f1e3ea7-949c-428c-a28d-32e3f4a531c7")
 	)
 	(wire
 		(pts
-			(xy 39.37 114.3) (xy 39.37 124.46)
+			(xy 162.56 46.99) (xy 162.56 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59e39c09-fe39-4b24-9f2b-49a667f81ec9")
+		(uuid "51aca727-6d86-4159-a25f-181d33b37bb2")
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 152.4 88.9)
+			(xy 72.39 49.53) (xy 72.39 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "669ff4c3-7870-406d-a5db-fe4a65631af8")
+		(uuid "54067292-02eb-400f-a9ef-8bad00ca10ac")
 	)
 	(wire
 		(pts
-			(xy 80.01 149.86) (xy 92.71 149.86)
+			(xy 96.52 137.16) (xy 102.87 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72fb8691-8460-44be-bc70-2ea5d63632be")
+		(uuid "5ce24cb2-f450-479c-bda3-c7d0547bc68c")
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 152.4 148.59)
+			(xy 186.69 77.47) (xy 186.69 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f450ceb-e149-4de6-9d12-cf93007fc840")
+		(uuid "72a1b8f0-fa35-46fd-890e-f187bb7ea03c")
 	)
 	(wire
 		(pts
-			(xy 175.26 87.63) (xy 176.53 87.63)
+			(xy 49.53 93.98) (xy 49.53 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "865b7a16-b739-4dbb-ade3-76bb338cb429")
+		(uuid "79d1f74a-d15d-4501-8734-e40dcd25a7db")
 	)
 	(wire
 		(pts
-			(xy 39.37 95.25) (xy 62.23 95.25)
+			(xy 162.56 99.06) (xy 162.56 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "887d8cdb-8ad6-423f-9ceb-7db20599ca0f")
+		(uuid "84ec8b3e-e05b-4046-ba23-25a81cfeca40")
 	)
 	(wire
 		(pts
-			(xy 86.36 147.32) (xy 92.71 147.32)
+			(xy 72.39 83.82) (xy 72.39 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa020876-0f0b-4cec-95b1-e165a02ca9e7")
+		(uuid "934b8953-7e78-461b-85d2-d57da0c47958")
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 152.4 62.23)
+			(xy 49.53 93.98) (xy 49.53 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae576eca-eb03-4651-b345-77cbe1fe8beb")
+		(uuid "9b54b63c-4942-406d-896b-21332a0ad708")
 	)
 	(wire
 		(pts
-			(xy 152.4 69.85) (xy 152.4 88.9)
+			(xy 185.42 77.47) (xy 186.69 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af447d6a-0e00-4631-9974-836cb5c11636")
+		(uuid "aa7be5db-e3c4-4a0e-9365-2164b4e2fbae")
 	)
 	(wire
 		(pts
-			(xy 62.23 142.24) (xy 92.71 142.24)
+			(xy 186.69 92.71) (xy 186.69 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdadf0e1-44b2-4e77-b3b5-2b61bba1d5fb")
+		(uuid "c16de0de-d02e-481e-88f2-abc918b30908")
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 152.4 88.9)
+			(xy 186.69 102.87) (xy 186.69 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3aed3a4-e186-472e-bbc6-a374fb3a6a3d")
+		(uuid "ca49f5f6-1022-4ea0-9be8-4bb703c023db")
 	)
 	(wire
 		(pts
-			(xy 176.53 102.87) (xy 176.53 92.71)
+			(xy 185.42 78.74) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb693fec-7253-4499-b8dc-ff199ec78aa7")
+		(uuid "cb26c4bb-0581-4e0c-8830-8821a392da97")
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 62.23 95.25)
+			(xy 72.39 85.09) (xy 72.39 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2463acb-b799-4ada-b1b8-e095252ea540")
+		(uuid "cbb6d138-0ebf-4197-8a6f-2305f4e6fe55")
 	)
 	(wire
 		(pts
-			(xy 62.23 59.69) (xy 62.23 86.36)
+			(xy 72.39 101.6) (xy 72.39 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f66ce08f-425e-4e4d-91fd-2ca92e315399")
+		(uuid "e0433993-875d-4d36-83f5-35c862b57a29")
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 152.4 93.98)
+			(xy 162.56 78.74) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbbc84be-abc1-414e-8be2-32ab0c61f817")
+		(uuid "f4c1d392-7764-41c3-9c2c-eab92de39d81")
 	)
 	(wire
 		(pts
-			(xy 176.53 87.63) (xy 176.53 92.71)
+			(xy 185.42 77.47) (xy 185.42 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd9c88ef-eff0-41e9-ac1e-93bbdce4ed38")
+		(uuid "fa1376c0-4b0d-464e-a7cf-03adfec770c5")
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 62.23 59.69 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "499876ec-0760-4cd3-aaed-a235c42e3b19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 52.7133 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HV+"
-		(shape input)
-		(at 83.82 50.8 180)
+		(at 93.98 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2442,9 +2415,9 @@
 			)
 			(justify right)
 		)
-		(uuid "60d23c97-44bc-4fc3-9369-70ad9e99599b")
+		(uuid "026afbb2-89e2-4087-8206-2c1de03a00da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.8433 50.8 0)
+			(at 87.0033 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,29 +2429,7 @@
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 152.4 57.15 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a856f818-3d71-41bc-9c08-2fb7e3ce303e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 50.1733 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HV+"
-		(shape input)
-		(at 83.82 53.34 180)
+		(at 93.98 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2486,9 +2437,9 @@
 			)
 			(justify right)
 		)
-		(uuid "deb4b22a-e351-49ac-86e6-0ea1e06b130e")
+		(uuid "3c3a0766-2aa6-4932-9499-9de9b6bb11d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.8433 53.34 0)
+			(at 87.0033 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,747 +2449,79 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "HV+"
+		(shape input)
+		(at 162.56 46.99 90)
 		(fields_autoplaced yes)
-		(uuid "0390340f-c941-4500-aec3-dc6d96725143")
-		(property "Reference" "#PWR015"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "GND"
-			(at 78.74 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5b800fe-c23e-49c4-9986-1d122a55a3b8")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 92.71 180.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "089bef9f-97f7-47cd-874c-bf69c49f154a")
-		(property "Reference" "H2"
-			(at 95.25 179.0699 0)
+		(uuid "5fbd039a-87d8-4893-a3ce-5f253d4c848d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 40.0133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 95.25 181.6099 0)
+	)
+	(global_label "HV+"
+		(shape input)
+		(at 72.39 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fedee8bf-0fe2-47f4-94a2-b5f5c4889da6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 42.5533 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 92.71 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 92.71 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09fc055f-07f0-4b35-a1a2-d9bf85ee59b4")
-		(property "Reference" "#PWR07"
-			(at 20.32 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1601fda2-d391-4e08-af16-c36d39aa82f0")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13c3c9ee-f6f6-427e-8613-668c22093117")
-		(property "Reference" "#PWR08"
-			(at 20.32 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "818f34eb-cf76-45c0-83da-af42bbdd793d")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 110.49 180.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "166392f4-ac0c-4b14-bd7f-c3065b692560")
-		(property "Reference" "H3"
-			(at 113.03 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 113.03 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 110.49 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 110.49 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27f01ea1-9b07-4146-9cab-16ce19c812ec")
-		(property "Reference" "#PWR01"
-			(at 153.67 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fe1fcbb-69d8-4438-b92d-8bdee4910bfc")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea5d037-91b4-48b9-b475-a142b8285815")
-		(property "Reference" "#PWR020"
-			(at 86.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ba39f53-4f81-4d4a-96f7-348830850cc3")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 62.23 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38cf6575-5133-4340-a646-458847bfc277")
-		(property "Reference" "R1"
-			(at 64.516 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "320 Ohm"
-			(at 64.77 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 60.452 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d23605bb-ee82-412b-b64d-5ce08a8e9117")
-		)
-		(pin "1"
-			(uuid "1693e39c-442b-48b6-9817-026852730a44")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3db65e9f-357b-4ed4-9422-f03134834fd5")
-		(property "Reference" "#PWR014"
-			(at 80.01 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70e90cce-b3ea-4510-a2d6-7150dfa506b0")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
-		(at 26.67 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41564dac-a867-4562-b3ed-deae5aef0064")
-		(property "Reference" "C3"
-			(at 33.02 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 uF / 35 V"
-			(at 33.02 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 35.56 220.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
-			(at 35.56 320.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
-			(at 26.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 35.56 520.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 35.56 620.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 35.56 720.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 35.56 820.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
-			(at 35.56 920.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "559c16db-d734-48bc-8b0a-ac6c86446104")
-		)
-		(pin "1"
-			(uuid "67ffb60c-c6db-464b-a636-d51f80fc1d00")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C3")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
-		(at 26.67 114.3 0)
+		(at 36.83 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "417e49ad-67d9-4d7f-9950-b1020049ba8b")
-		(property "Reference" "C2"
-			(at 33.02 108.458 0)
+		(fields_autoplaced yes)
+		(uuid "0caa9ff6-16e9-46f3-a500-898816ffe2e9")
+		(property "Reference" "C1"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CGA3EANP02A103J080AC"
+			(at 43.18 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100 nF / 35 V"
-			(at 32.512 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 35.56 210.49 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 45.72 190.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +2531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 310.49 0)
+			(at 45.72 290.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +2541,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
-			(at 26.67 114.3 0)
+			(at 36.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +2550,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 35.56 510.49 0)
+			(at 45.72 490.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +2560,7 @@
 			)
 		)
 		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
-			(at 35.56 610.49 0)
+			(at 45.72 590.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +2570,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
-			(at 35.56 710.49 0)
+			(at 45.72 690.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +2580,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 35.56 810.49 0)
+			(at 45.72 790.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +2590,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
-			(at 35.56 910.49 0)
+			(at 45.72 890.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,146 +2600,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "38a1fce2-00db-4baf-82f4-931745d22dbd")
+			(uuid "afa0b1a8-dc6d-48f5-ba0f-a519cedc20c0")
 		)
 		(pin "1"
-			(uuid "755ff66a-17a0-4572-8317-2ee95e91f700")
+			(uuid "fbe7ce66-528d-4e69-afd3-d8dcd3c5ef58")
 		)
 		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 129.54 180.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fb2d50c-6cc8-4782-9ca3-e1c925e617d0")
-		(property "Reference" "H4"
-			(at 132.08 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 132.08 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6afd5f8e-bc85-49cb-90fe-33e6bf5e9085")
-		(property "Reference" "#PWR09"
-			(at 20.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52f50da9-0119-4408-8202-e59eed7c26d0")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR09")
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3464,31 +2616,31 @@
 	)
 	(symbol
 		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
-		(at 176.53 113.03 0)
+		(at 186.69 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b233997-cc11-4bfa-a428-d93a9d88fbe2")
+		(uuid "0e996ddd-4d15-4a9f-85fe-e4610e4fb6ec")
 		(property "Reference" "C6"
-			(at 182.88 107.442 0)
+			(at 193.04 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1 uF / 35 V"
-			(at 182.88 109.474 0)
+		(property "Value" "MMJCG168CB7105KRPA18"
+			(at 193.04 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 185.42 209.22 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 195.58 199.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +2650,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
-			(at 185.42 309.22 0)
+			(at 195.58 299.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +2660,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
-			(at 176.53 113.03 0)
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +2669,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 185.42 509.22 0)
+			(at 195.58 499.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +2679,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 185.42 609.22 0)
+			(at 195.58 599.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +2689,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 185.42 709.22 0)
+			(at 195.58 699.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +2699,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 185.42 809.22 0)
+			(at 195.58 799.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +2709,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
-			(at 185.42 909.22 0)
+			(at 195.58 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,14 +2719,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ff93c9a2-280b-45d4-8908-7e6680c43958")
+			(uuid "d2814303-3d8f-44f6-82bb-6d7aab208d8f")
 		)
 		(pin "1"
-			(uuid "fa14877f-ad05-4d28-b771-2d118d17e7ce")
+			(uuid "cee1c55a-cce7-4872-8a93-20442faa5007")
 		)
 		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
 					(reference "C6")
 					(unit 1)
 				)
@@ -3583,16 +2735,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 73.66 180.34 0)
+		(at 139.7 170.18 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86c6c0e9-b60e-4bfb-9c5c-44787a90a668")
-		(property "Reference" "H1"
-			(at 76.2 179.0699 0)
+		(uuid "16c1e770-9733-45c6-89a7-c395f158c38f")
+		(property "Reference" "H4"
+			(at 142.24 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +2753,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 76.2 181.6099 0)
+			(at 142.24 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.5mm"
-			(at 73.66 180.34 0)
+			(at 139.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 180.34 0)
+			(at 139.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +2780,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 73.66 180.34 0)
+			(at 139.7 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,955 +2789,9 @@
 			)
 		)
 		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
-		(at 176.53 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ab7f839-db30-4be7-bd9c-aa34a441062f")
-		(property "Reference" "C4"
-			(at 182.88 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 nF / 100 V"
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 185.42 188.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 288.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 185.42 488.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
-			(at 185.42 588.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
-			(at 185.42 688.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 185.42 788.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
-			(at 185.42 888.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0da90aa-c746-489c-975f-eb110dc520ba")
-		)
-		(pin "1"
-			(uuid "951de2c5-954c-4bdb-bf70-2d91e1f24623")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f0f5d62-5e17-4d34-bde2-72669f3fe307")
-		(property "Reference" "#PWR013"
-			(at 153.67 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aadd2672-0ee2-4d5f-b814-7834589c9f19")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MICROFC-30035-SMT-TR1:MICROFC-30035-SMT-TR1")
-		(at 154.94 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a327abf4-a000-4963-a62c-571b53e7a09f")
-		(property "Reference" "U2"
-			(at 160.528 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MICROFC-30035-SMT-TR1"
-			(at 152.4 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-4 ON Semiconductor"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Issue O"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MICROFC-30035-SMT-TR1"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nPhotodiode 420nm 600ps - 4-SMD, No Lead\n"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "On Semiconductor"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f4b8a9b-5088-46c6-baf1-6959f0000ef1")
-		)
-		(pin "3"
-			(uuid "a477504e-8900-42b4-9100-43afd0fb81cb")
-		)
-		(pin "2"
-			(uuid "3e520337-143e-4873-adb0-7c8705efea1f")
-		)
-		(pin "4"
-			(uuid "79c3cd87-4711-451a-998c-ba67e947a3dc")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "COAX_MHF1:CONMHF1-SMD-G-T")
-		(at 160.02 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6a6e6d2-1d9d-49fc-b83c-cd9020711d6b")
-		(property "Reference" "J3"
-			(at 173.99 151.1299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CONMHF1-SMD-G-T"
-			(at 173.99 153.6699 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
-			(at 160.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CONMHF1-SMD-G-T"
-			(at 160.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "15b2f6c7-9856-49b0-afb6-86e07d551c4f")
-		)
-		(pin "3"
-			(uuid "2a695487-2f64-438e-b543-032bee5c0d71")
-		)
-		(pin "1"
-			(uuid "5e5b1f89-0416-49a1-bc4f-4dd69ac0478f")
-		)
-		(pin "4"
-			(uuid "24c1063e-a906-4a5d-b7eb-24fc6b6c7d79")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MICROFC-30035-SMT-TR1:MICROFC-30035-SMT-TR1")
-		(at 64.77 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9c5c267-479c-43bb-b5d8-4d592e85d416")
-		(property "Reference" "U1"
-			(at 70.358 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MICROFC-30035-SMT-TR1"
-			(at 62.23 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-4 ON Semiconductor"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Issue O"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MICROFC-30035-SMT-TR1"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nPhotodiode 420nm 600ps - 4-SMD, No Lead\n"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "On Semiconductor"
-			(at 64.77 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0b1aaeb-470a-4a1e-8ce4-201afcea92d8")
-		)
-		(pin "3"
-			(uuid "3f778b20-152b-4677-86da-ea50a4286aff")
-		)
-		(pin "2"
-			(uuid "dae288e8-97a7-4ede-afe8-cb2eaf44ed2f")
-		)
-		(pin "4"
-			(uuid "e770ecee-f0ec-470f-9d9d-c57e76f55b37")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 104.14 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b46a4b38-c748-40a3-bfd5-92c55f845b70")
-		(property "Reference" "#PWR016"
-			(at 110.49 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "810243c3-b49a-48b0-a84e-ae04cb5529d9")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4a18f7e-65fd-4cec-b8d4-769163a44b36")
-		(property "Reference" "#PWR010"
-			(at 195.58 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 102.8701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17ea3d4d-ac41-40f7-9ad5-c04fbf4fb448")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6c52582-0f6e-40a0-aaa0-0cbfabafbc4c")
-		(property "Reference" "#PWR011"
-			(at 195.58 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 92.7101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab154ecb-c02c-4e0f-a9fc-90dbc4cc291a")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce27e134-3616-4ef5-a785-9483868027b6")
-		(property "Reference" "#PWR02"
-			(at 195.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 113.0301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da1347eb-c76d-49d0-a4fc-d8d05c05682b")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR02")
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4593,16 +2799,16 @@
 	)
 	(symbol
 		(lib_id "87832-0411:87832-0411")
-		(at 83.82 50.8 0)
+		(at 93.98 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4ee31de-4404-4862-bfdd-2a0d8f96b351")
+		(uuid "22a9e45d-d766-4a74-80e9-9b99e009e71e")
 		(property "Reference" "J1"
-			(at 93.98 43.18 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +2816,7 @@
 			)
 		)
 		(property "Value" "87832-0411"
-			(at 93.98 45.72 0)
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" "878320411"
-			(at 100.33 145.72 0)
+			(at 110.49 135.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/878320411_sd.pdf"
-			(at 100.33 245.72 0)
+			(at 110.49 235.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +2844,7 @@
 			)
 		)
 		(property "Description" "2.00mm Pitch, Milli-Grid PCB Header, Dual Row, Vertical, Surface Mount, Shrouded, Lead-Free, 4 Circuits, 0.76m Gold (Au) Plating, with Locking Window, without Pick-and-Place Cap, without PCB Locator, Tube"
-			(at 83.82 50.8 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +2853,7 @@
 			)
 		)
 		(property "Height" "7.8"
-			(at 100.33 445.72 0)
+			(at 110.49 435.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +2863,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-87832-0411"
-			(at 100.33 545.72 0)
+			(at 110.49 535.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +2873,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/87832-0411?qs=kNSQ05%252BLZoARVxrc1s973A%3D%3D"
-			(at 100.33 645.72 0)
+			(at 110.49 635.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +2883,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 100.33 745.72 0)
+			(at 110.49 735.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +2893,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "87832-0411"
-			(at 100.33 845.72 0)
+			(at 110.49 835.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,20 +2903,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c5b4cb4-3ac2-42c8-8798-3c269fee8d60")
+			(uuid "86177a94-6731-4edb-bec4-6c7301b7f9dc")
 		)
 		(pin "4"
-			(uuid "365a0ee1-a600-412d-a590-c48045c1f26c")
+			(uuid "23466020-7c9b-4597-bd98-17ca9cbb82e2")
 		)
 		(pin "2"
-			(uuid "c5c493ce-c662-4835-8ecf-59904eb3f478")
+			(uuid "03cf06f7-2338-4c17-b351-5017f83c2eb0")
 		)
 		(pin "3"
-			(uuid "68c27b72-be4a-47ef-821c-59c544392220")
+			(uuid "691ab407-6440-47a5-9a9d-8471b8331ef7")
 		)
 		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
 					(reference "J1")
 					(unit 1)
 				)
@@ -4718,389 +2924,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 53.34 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 120.65 170.18 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d798fe65-a2c2-485e-9a5f-6f07a25271f5")
-		(property "Reference" "#PWR03"
-			(at 110.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a822de2-8442-4094-b91f-93692bf14a71")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7be390c-8a91-44d9-9735-b99ce04b8747")
-		(property "Reference" "#PWR012"
-			(at 153.67 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66df9c98-d3be-4346-9483-3bd5df1fa332")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
-		(at 176.53 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d82d1473-5272-4487-83b7-e139762b59a2")
-		(property "Reference" "C5"
-			(at 182.88 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF / 35 V"
-			(at 182.372 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 185.42 199.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 299.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
-			(at 176.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 185.42 499.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
-			(at 185.42 599.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
-			(at 185.42 699.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 185.42 799.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
-			(at 185.42 899.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef05aca2-aad9-4a14-8712-abb54197198e")
-		)
-		(pin "1"
-			(uuid "765d1e4c-1c77-444e-b8fb-e8d226c3a6a0")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
-		(at 26.67 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e57edc52-b5d9-47e3-b830-61099425e73b")
-		(property "Reference" "C1"
-			(at 33.02 97.79 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "10 nF / 100 V"
-			(at 33.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC1608X90N"
-			(at 35.56 200.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 300.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
-			(at 26.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 35.56 500.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
-			(at 35.56 600.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
-			(at 35.56 700.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 35.56 800.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
-			(at 35.56 900.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "38ce25f7-31b2-484a-b14e-b4bd0f52a8ac")
-		)
-		(pin "1"
-			(uuid "3ffc8a64-9544-47ab-8482-accca193ab39")
-		)
-		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6ee7a3b-9214-448c-952e-88a97a596b7a")
-		(property "Reference" "R2"
-			(at 154.686 64.77 0)
+		(uuid "2aecf5f4-437e-4d19-9c03-8a3351a0aa64")
+		(property "Reference" "H3"
+			(at 123.19 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,8 +2942,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "320 Ohm"
-			(at 154.94 67.3099 0)
+		(property "Value" "MountingHole"
+			(at 123.19 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,8 +2951,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 150.622 66.04 90)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 120.65 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +2961,136 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 66.04 0)
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eb204a2-fe00-42fe-8fbd-d2c6310ad110")
+		(property "Reference" "#PWR09"
+			(at 163.83 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31d5481e-dbfc-4479-8a8c-d8c748267729")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3812e1f5-ac1b-4475-be8d-d463120aac7a")
+		(property "Reference" "R1"
+			(at 74.676 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "320 Ohm"
+			(at 74.93 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 70.612 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +3099,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 66.04 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,15 +3108,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e443f11-9799-415a-b8ce-a2e23fb7e2b3")
+			(uuid "def04cd7-4a04-4ae3-a37c-3ce035c9720d")
 		)
 		(pin "1"
-			(uuid "1f8dddf8-f4df-4148-9172-a4b9ac89db5d")
+			(uuid "3f09bd7a-dd7a-4481-b530-1b15915a4501")
 		)
 		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
-					(reference "R2")
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52573dcd-8517-44f3-9e07-e6ef63d1056b")
+		(property "Reference" "#PWR01"
+			(at 30.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f0e2302-c2af-490f-8ac1-b4ca1b02bca2")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5161,16 +3191,16 @@
 	)
 	(symbol
 		(lib_id "COAX_MHF1:CONMHF1-SMD-G-T")
-		(at 92.71 142.24 0)
+		(at 102.87 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f7d01e4f-c874-45c1-88a0-af767aaac9eb")
+		(uuid "5944f821-b24c-447d-bff2-a642bce77530")
 		(property "Reference" "J2"
-			(at 106.68 144.7799 0)
+			(at 116.84 134.6199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5179,7 +3209,7 @@
 			)
 		)
 		(property "Value" "CONMHF1-SMD-G-T"
-			(at 106.68 147.3199 0)
+			(at 116.84 137.1599 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5188,7 +3218,7 @@
 			)
 		)
 		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
-			(at 92.71 142.24 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +3228,7 @@
 			)
 		)
 		(property "Datasheet" "CONMHF1-SMD-G-T"
-			(at 92.71 142.24 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +3238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 142.24 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,21 +3247,1986 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a09709b-3e55-4fb4-b0fb-d6f7e3c32e47")
+			(uuid "ad439ff8-bcae-46a7-86c3-fe8c795fe179")
 		)
 		(pin "3"
-			(uuid "33d345f9-b9a7-46f1-92a1-3c557c0c7345")
+			(uuid "ff10a6d1-f933-44cd-8c0a-5bbc7b993ba1")
 		)
 		(pin "1"
-			(uuid "a99af9c5-37be-4020-8679-d707bac970e3")
+			(uuid "a787e642-5dc3-45da-a6d2-9bd4397b7871")
 		)
 		(pin "4"
-			(uuid "ad618cc7-702b-4fbe-b4f6-4d95510b160d")
+			(uuid "49ddb2f7-bf44-4293-b96e-25a1a31ea709")
 		)
 		(instances
-			(project "PUMA_PCB_REV2"
-				(path "/31b68516-5cda-4947-89a4-f2f721ffe751"
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 186.69 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b960db6-b4cf-4771-bbd3-bdafe29da891")
+		(property "Reference" "C4"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "810-CGA3EANP02A103JC"
+			(at 193.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 195.58 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 195.58 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 195.58 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 195.58 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 195.58 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 195.58 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c6552dd-d3df-4d57-838d-ef103cb42ebd")
+		)
+		(pin "1"
+			(uuid "8cc492f5-f7d9-448b-826c-622f930f5e5c")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e010524-52fb-4598-b9ce-9737b10ac950")
+		(property "Reference" "#PWR010"
+			(at 163.83 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f03d888f-0acd-4c4a-8c8f-7c0c42ec7e44")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65e19c9f-02ad-4dac-89c9-7c7fed0b0395")
+		(property "Reference" "R2"
+			(at 164.846 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "320 Ohm"
+			(at 165.1 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 160.782 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18169959-159c-48b0-bf04-c351ac4dd78c")
+		)
+		(pin "1"
+			(uuid "3a742a0e-e2ef-4380-bc5f-8153ec74fb31")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc7b59b-23ca-4857-bd1b-a1476715ba89")
+		(property "Reference" "#PWR013"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 92.7101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d418f98-8486-4d6f-a8be-b40290880011")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MMJCG168CB7105KRPA18_1uF:MMJCG168CB7105KRPA18")
+		(at 36.83 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c5c9d2b-362c-4970-b0b2-f4329666e751")
+		(property "Reference" "C3"
+			(at 43.18 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMJCG168CB7105KRPA18"
+			(at 43.18 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 45.72 210.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.kr/datasheet/2/396/MM_mlcc_all_e-3370058.pdf"
+			(at 45.72 310.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V 1uF X7R 0603 10% Medical"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 45.72 510.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 45.72 610.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 45.72 710.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 45.72 810.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMJCG168CB7105KRPA18"
+			(at 45.72 910.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a334c9c8-bd69-407a-ba0d-06a94a7de2e9")
+		)
+		(pin "1"
+			(uuid "66e6f18b-dc84-4943-967e-5c1f0417da37")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80f66d7a-42c5-4115-a93b-45a53c9ab7d6")
+		(property "Reference" "#PWR06"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c264c9a-f41f-4d66-98f3-24b029d57c55")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "859cb99e-b6c0-4acc-b408-197bf8731b89")
+		(property "Reference" "H1"
+			(at 86.36 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 86.36 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d35adbe-426b-43ea-8046-29a434458e4b")
+		(property "Reference" "#PWR02"
+			(at 30.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81167d4-c9ce-403a-a59a-eddc40800bb3")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9733c7e7-9c71-4146-bf7e-a44b9a47a5ce")
+		(property "Reference" "#PWR08"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb3c2409-588c-4e56-b5a1-f83e9f8ff804")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e82ccf6-419e-4198-9911-475e5d50bca0")
+		(property "Reference" "#PWR012"
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c6a6d35-bddf-4de3-b840-db0697224006")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a09963b5-45f1-43d4-9398-8a3099abe2bf")
+		(property "Reference" "#PWR011"
+			(at 163.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a372b7e-e69e-4bc5-a3f7-fb3cc726f01a")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 170.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22a77d9-2c21-47c1-a5c2-5a336edb3667")
+		(property "Reference" "H2"
+			(at 105.41 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 105.41 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 36.83 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2e9db01-9c17-47e3-a96a-19e5efb5eb8a")
+		(property "Reference" "C2"
+			(at 43.18 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C0603X104K5RACAUTO"
+			(at 42.672 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 45.72 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=100nF, LxWxT:1.6x0.8x0.8mm"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 45.72 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-CGA3EANP02A103JC"
+			(at 45.72 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 45.72 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 45.72 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 45.72 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3776e8bc-046e-44c3-a1f7-1471172d5d32")
+		)
+		(pin "1"
+			(uuid "56fa4781-9376-48c1-9709-132125457583")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MICROFC-30035-SMT-TR1:MICROFC-30035-SMT-TR1")
+		(at 165.1 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a831166f-825c-4f95-8b26-b57390bb1df8")
+		(property "Reference" "U2"
+			(at 170.688 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MICROFC-30035-SMT-TR1"
+			(at 162.56 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 ON Semiconductor"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Issue O"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MICROFC-30035-SMT-TR1"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPhotodiode 420nm 600ps - 4-SMD, No Lead\n"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Semiconductor"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "282cebfa-45fd-4d03-af1f-8e5c10561a9d")
+		)
+		(pin "3"
+			(uuid "015b5521-a6d3-4b46-9015-a836c0816581")
+		)
+		(pin "2"
+			(uuid "d6a836f9-0e36-4787-9ad9-141a3e8737ca")
+		)
+		(pin "4"
+			(uuid "0653dc29-aefe-4354-b87d-8b132fe1aaf9")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MICROFC-30035-SMT-TR1:MICROFC-30035-SMT-TR1")
+		(at 74.93 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb410f0-25b7-4d7c-b539-ad39861b3e73")
+		(property "Reference" "U1"
+			(at 80.518 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MICROFC-30035-SMT-TR1"
+			(at 72.39 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SiPM_Onsemi:XDCR_MICROFC-30035-SMT-TR1"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.70 mm"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 ON Semiconductor"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=eda"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Issue O"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MICROFC-30035-SMT-TR1/Onsemi/view-part/?ref=snap"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MICROFC-30035-SMT-TR1"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3234749&manufacturer=ON Semiconductor&part_name=MICROFC-30035-SMT-TR1&search_term=microfc-30035-smt-tr"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPhotodiode 420nm 600ps - 4-SMD, No Lead\n"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Semiconductor"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31be3b56-1fb5-481f-bbbe-4c9c26be0b93")
+		)
+		(pin "3"
+			(uuid "696b2004-3551-46e3-aaed-0a0e1f58a153")
+		)
+		(pin "2"
+			(uuid "82e71e91-66a7-4932-9213-f987b30116ab")
+		)
+		(pin "4"
+			(uuid "254bc861-3ad8-4596-8014-87bfc09005e8")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d73e7ce1-92fe-40d1-b354-2262d3cdc1e7")
+		(property "Reference" "#PWR014"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 102.8701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94a87781-fa8b-475d-b3fb-c12160c5144f")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7841f5f-0343-477a-acae-dc386d68fe2f")
+		(property "Reference" "#PWR04"
+			(at 83.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73055096-305d-42de-8dfc-95b896b4d615")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COAX_MHF1:CONMHF1-SMD-G-T")
+		(at 170.18 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3824e0c-f56f-4dc4-bc71-0403517825b2")
+		(property "Reference" "J3"
+			(at 184.15 140.9699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-G-T"
+			(at 184.15 143.5099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COAX3_CONMHF1-SMD-G-T_TEC"
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CONMHF1-SMD-G-T"
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3609d39-ed2f-49c0-b471-581a4f7adfc4")
+		)
+		(pin "3"
+			(uuid "c85ed872-9c32-48d4-912a-42462f825552")
+		)
+		(pin "1"
+			(uuid "3b8d89c9-a6b0-4427-8f63-a6f1a97588cd")
+		)
+		(pin "4"
+			(uuid "39b0730e-c486-4528-860f-456aeb71f925")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5135b5-284d-4d2d-8280-48eb6ef58ce9")
+		(property "Reference" "#PWR07"
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84f25b5e-f801-4d1e-9de4-ba5287663778")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05bd3bd-6daf-4656-9de0-4c00372a197f")
+		(property "Reference" "#PWR05"
+			(at 90.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a1bfb3-e989-4532-8de3-c9afea737dcf")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a97c99-32ee-4638-9ecf-9f2972dfcd59")
+		(property "Reference" "#PWR03"
+			(at 30.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c714f5-b8c3-48e9-b1c3-0b525d4b933a")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CGA3EANP02A103J080AC_001uF:CGA3EANP02A103J080AC")
+		(at 186.69 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fde71bf4-fbc2-4c02-96e8-646ab4c4a1ed")
+		(property "Reference" "C5"
+			(at 193.04 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C0603X104K5RACAUTO"
+			(at 192.532 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 195.58 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Chip Capacitors, Capacitance=10nF, LxWxT:1.6x0.8x0.8mm"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9"
+			(at 195.58 488.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "C0603X104K5RACAUTO"
+			(at 195.58 588.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/CGA3EANP02A103J080AC?qs=6JAMGB%252BEdkzxTYYMzdSqJA%3D%3D"
+			(at 195.58 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 195.58 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3EANP02A103J080AC"
+			(at 195.58 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39edd5b8-79fc-4bf6-b20d-d7c2ca2650f7")
+		)
+		(pin "1"
+			(uuid "5292001e-9187-4abe-9d91-d243cc60b704")
+		)
+		(instances
+			(project "PUMA_PCB_REV3"
+				(path "/2c2de6dc-06e6-45ed-b631-b08562fd2030"
+					(reference "C5")
 					(unit 1)
 				)
 			)
