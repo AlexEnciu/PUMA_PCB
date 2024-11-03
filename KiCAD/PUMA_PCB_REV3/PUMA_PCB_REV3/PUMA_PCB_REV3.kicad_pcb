@@ -5077,6 +5077,30 @@
 		(layer "User.4")
 		(uuid "fbf6f634-7f4c-4395-9abe-7a8c21092334")
 	)
+	(gr_text "TB PCB\nRev3,11/24\nby C. Klink"
+		(at 109 53.2 5.6)
+		(layer "F.SilkS")
+		(uuid "5648bb4d-8a31-4bc2-83b9-ba6b1cd0eb28")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "S/N ____"
+		(at 125.061174 51.043897 0)
+		(layer "F.SilkS" knockout)
+		(uuid "807ca0c5-4f44-4e0e-88cf-f2f5faa14d87")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(via
 		(at 120 45)
 		(size 0.7)
@@ -7009,7 +7033,7 @@
 		(net_name "HV+")
 		(layer "F.Cu")
 		(uuid "488f2bd1-f3e4-47fb-80d7-1ff4858bba7a")
-		(name "Ground")
+		(name "HV+")
 		(hatch edge 0.5)
 		(priority 1)
 		(connect_pads yes
@@ -7572,7 +7596,7 @@
 		(net_name "HV+")
 		(layer "B.Cu")
 		(uuid "2b7a43be-5001-46a0-b2f6-cbf9863f99d5")
-		(name "Ground")
+		(name "HV+")
 		(hatch edge 0.5)
 		(priority 2)
 		(connect_pads yes
